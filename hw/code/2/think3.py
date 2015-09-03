@@ -56,7 +56,7 @@ do_twice(print_twice, "spam")
 
 do_four(print_twice, "spam")
 
-#Exercise 3.
+#Exercise 3.5
 
 def print_square(arg):
     for i in range(0, 2*arg):
