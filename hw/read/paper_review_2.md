@@ -35,5 +35,9 @@ Mamboo 4.5.3, has an SQL injection vulnerability in its “submit weblink” pag
 
 Things to improve:
 iv1. Handling other error types apart from SQL injection: The paper doesnt address how web applications with errors other than SQL injection are tested. The web applications used for testing all contain only SQL injection type of errors and other error types have not been addressed.
+
+
 iv2. Performance testing: The paper does not address performance testing, where the time required for execution of a function is measured for various inputs. As performance is an important factor for most of the real time web applications, it would be good if the paper addressed this concern.
+
+
 iv3. No statistics on branch coverage: As part of the evaluation of the algorithm for various web applications, presentation of the statistics about the branch coverage would have been a good evaluation factor for the algorithm.
