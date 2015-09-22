@@ -1,7 +1,8 @@
-#Paper 1 Summary
+#Paper 1 - Summary
 
 ##Reference:
-Nadia Alshahwan and Mark Harman (2011). "Automated Web Application Testing Using Search Based Software Engineering"
+Nadia Alshahwan and Mark Harman (2011).  
+"Automated Web Application Testing Using Search Based Software Engineering"  
 *Automated Software Engineering (ASE), 2011 26th IEEE/ACM International Conference*, 3-12.
 
 ##Keywords:
