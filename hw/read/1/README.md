@@ -4,6 +4,7 @@
 Nadia Alshahwan and Mark Harman (2011).  
 "Automated Web Application Testing Using Search Based Software Engineering"  
 *Automated Software Engineering (ASE), 2011 26th IEEE/ACM International Conference*, 3-12.
+[Link](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6100082)
 
 ##Keywords:
 *ii1. Search Based Software Engineering : An approach that reformulates software engineering problems into optimization problems
