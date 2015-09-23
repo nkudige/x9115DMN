@@ -17,13 +17,13 @@ Gary Wassermann, Dachuan Yu, Ajay Chander, Dinakar Dhurjati, Hiroshi Inamura and
 * iii2. **Related Work**:
  - **Test input generation**: Test input generation techniques that make use of program executions to gather symbolic constraints and concrete values from program executions and use these concrete values to help resolve the constraints to generate the next input. This approach which works on numbers, pointer based data structures and thread interleavings is appropriate for languages like C and JAVA. But scripting languages used in web applications encourage a style in which strings and associative arrays play a central role.
  - **Web application testing**: Previous work of testing web application has focused on static web pages and control flow between them. Other works are focused on server side code. There has also been work done on testing that focused on page-coverage metric. Using UML models to analyze static pages, exploring web pages by following sequences of links in web applications are few other approaches used for web application testing.
- - **Static Analysis of web applications**: These tests can only check if raw user inputs flow into sensitive sinks.To implement dynamic dispatch or for dynamically loaded modules or for database handling code, PHP uses dynamic features extensively.In such cases, the values of interpreted strings depend only indirectly on user input, and for any given run, the predicates on user inputs are not dynamically constructed.
+ - **Static analysis of web applications**: These tests can only check if raw user inputs flow into sensitive sinks.To implement dynamic dispatch or for dynamically loaded modules or for database handling code, PHP uses dynamic features extensively.In such cases, the values of interpreted strings depend only indirectly on user input, and for any given run, the predicates on user inputs are not dynamically constructed.
 
-* iii4. **Limitations**:
+* iii3. **Limitations**:
  - The constraint resolution algorithm generates constraints only based on one variable instance per value. But for programs with multiple variables, it may miss paths that other resolution algorithms might find.
  - Selective logging is effective only when the points of possible failure are known and relatively localized. Selective logging will be not very effective if the programs are potentially more ubiquitous in the program code, similar to arbitrary run time exceptions. Logging the whole execution would solve the problem, but would be expensive.
 
-* iii5. **Sampling procedures**: For testing the algorithm, three real-world PHP web appications with known SQL injecetions vulnerabilities were selected.  
+* iii4. **Sampling procedures**: For testing the algorithm, three real-world PHP web appications with known SQL injecetions vulnerabilities were selected.  
  - Mantis 1.0.0rc2 has SQL injection vulnerability in its "lost password" page.  
  - Mamboo 4.5.3, has an SQL injection vulnerability in its “submit weblink” page.  
 
