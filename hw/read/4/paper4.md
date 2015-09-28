@@ -51,3 +51,5 @@ All these approaches include only static analysis of the code used to validate t
 
 ##Areas of improvements:
 
+(iv1.) The paper does not justify as to why those 4 web applications were chosen over the others for analysis.
+(iv2.) 
