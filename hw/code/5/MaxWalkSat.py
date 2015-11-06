@@ -18,8 +18,8 @@ class osyzka:
                 self.n = 6
                 self.p = probability
                 self.evals = 0
-                self.top_bound = [10, 10, 5, 6, 5, 10]
-                self.bottom_bound = [0, 0, 1, 0, 1, 0]
+                self.top_bound = [10, 10, 5, 10, 7, 10]
+                self.bottom_bound = [0, 1, 1, 0, 0, 3]
                 self.steps = no_steps
                 self.number_of_evaluations = 0
                 self.threshold = - 400
