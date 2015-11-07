@@ -18,9 +18,9 @@ class DE:
     #Returns three different things that are not 'avoid'.
     def threeOthers(self, lst, avoid):
       def oneOther():
-          x = a(lst)
+          x = self.a(lst)
           while x in seen: 
-              x = a(lst)
+              x = self.a(lst)
           seen.append( x )
           return x
   # -----------------------
@@ -32,13 +32,13 @@ class DE:
 
 
     def a(self, lst):
-        return lst[n(len(lst))]
+        return lst[self.n(len(lst))]
 
     def n(self, number):
         return int(uniform(0,number))
 
     def golinski_energy(self, x):
-        self.f1 = 0.7854 * x[0] * (x[1]**2) * (10*(x[2]**2)/3 + 14.933*x[2] - 43.0934) - \
+        f1 = 0.7854 * x[0] * (x[1]**2) * (10*(x[2]**2)/3 + 14.933*x[2] - 43.0934) - \
         1.508 * x[0] * (x[5]**2 + x[6]**2) + \
         7.477 * (x[5]**3 + x[6]**3) + \
         0.7854 * (x[3]*(x[5]**2) + x[4]*(x[6]**2))
