@@ -95,7 +95,8 @@ class DE():
         frontier = [self.candidate() for _ in range(np)] 
         for k in range(max):
             total, n = self.update(f, cf, frontier)
-            if total/n > (1 - epsilon): 
+            print "Total Frontier score:" + str(total) + " n: " + str(n)
+            if (n > 0 and total/n > (1 - epsilon)) or n <= 0:
                 break
         return frontier
 
@@ -104,9 +105,10 @@ class DE():
             s = x.score
             new = self.extrapolate(frontier, x, f, cf)
             if new.score > s:
+                x.energy = new.energy
                 x.score = new.score
                 x.have  = new.have
-                total += x.score
+                total += x.energy
                 n += 1
         return total,n
         
@@ -124,6 +126,7 @@ class DE():
             d = self.a(self.decisions())
             out.have[d] = two.have[d]
         out.score = self.golinski_energy(out.have) # remember to score it
+        out.energy = self.aggregate_energy(out.have)
         return out 
         
     def are_constraints_satisfied(self, x):
@@ -179,4 +182,4 @@ de = DE()
 de.resetBaselines()
 print de.candidate().have
 print de.candidate().score
-print de.de()
+de.de()
