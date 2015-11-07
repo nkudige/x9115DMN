@@ -90,12 +90,19 @@ class DE():
             np      = 100,  # number of candidates
             f       = 0.75, # extrapolate amount
             cf      = 0.3,  # prob of cross-over 
-            epsilon = 0.01
+            epsilon = 0.01,
+            s       = 0.1
     ):
         frontier = [self.candidate() for _ in range(np)] 
         for k in range(max):
             total, n = self.update(f, cf, frontier)
-            print "Frontier energy:" + str(total)
+            frontier.sort(key=lambda x: x.energy)
+            print "Frontier energy:" + str(total) + " Count:" + str(n) + " Max Energy:" + str(frontier[0].energy) + " Min Energy:" + str(frontier[len(frontier)-1].energy)
+            min = frontier[0].energy
+            max = frontier[len(frontier)-1].energy
+            big = max - (max-min)*s/100
+            new_frontier = [x for x in frontier if x.energy <= big]
+            frontier = new_frontier
             if (n > 0 and total/n > (1 - epsilon)) or n <= 0:
                 break
         return frontier
