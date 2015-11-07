@@ -95,7 +95,7 @@ class DE():
         frontier = [self.candidate() for _ in range(np)] 
         for k in range(max):
             total, n = self.update(f, cf, frontier)
-            print "Total Frontier score:" + str(total) + " n: " + str(n)
+            print "Frontier energy:" + str(total)
             if (n > 0 and total/n > (1 - epsilon)) or n <= 0:
                 break
         return frontier
@@ -108,8 +108,8 @@ class DE():
                 x.energy = new.energy
                 x.score = new.score
                 x.have  = new.have
-                total += x.energy
-                n += 1
+            n += 1
+            total += x.energy
         return total,n
         
     def extrapolate(self, frontier, one, f, cf):
