@@ -102,7 +102,6 @@ class osyzka:
         def max_walk_sat(self):
                 max_tries = 100
                 max_changes = 50
-                p = 0.5
                 self.resetBaselines()
                 print self.baseline_high
                 print self.baseline_low
