@@ -4,7 +4,7 @@ from random import randint
 from random import random
 from random import uniform
 from math import sqrt
-from models import Golinski
+#from models import Golinski
 from Golinski import Golinski
 from Schaffer import Schaffer
 
@@ -21,7 +21,7 @@ class Thing():
 
 
 class DE():
-    def __init__(self):
+    def __init__(self, model = "Schaffer"):
         self.top_bound = [3.6, 0.8, 28.0, 8.3, 8.3, 3.9, 5.5]
         self.bottom_bound = [2.6, 0.7, 17.0, 7.3, 7.3, 2.9, 5]
         self.f2_high = -10**6
@@ -29,7 +29,10 @@ class DE():
         self.f1_high = -10**6
         self.f1_low = 10**6
         self.evals = 0
-        self.model = Golinski()
+        if model == "Schaffer":
+            self.model = Schaffer()
+        elif model == "Golinski":
+            self.model = Golinski()
         self.best_solution = Thing()
         self.best_solution.score = 0;
         self.best_solution.energy = 1;
@@ -64,7 +67,7 @@ class DE():
         new.energy = self.model.aggregate_energy(new.have)
         return new
     
-    def de(self, max     = 100,  # number of repeats 
+    def run(self, max     = 100,  # number of repeats 
             np      = 100,  # number of candidates
             f       = 0.75, # extrapolate amount
             cf      = 0.3,  # prob of cross-over 
@@ -84,7 +87,7 @@ class DE():
             frontier = new_frontier
             if (n > 0 and total/n > (1 - epsilon)) or n <= 0 or len(frontier) < 3:
                 break
-        return frontier
+        return self.best_solution.have
 
     def update(self, f, cf, frontier, total = 0.0, n = 0):
         output = ""
@@ -129,9 +132,4 @@ class DE():
         out.score = self.model.energy(out.have) # remember to score it
         out.energy = self.model.aggregate_energy(out.have)
         return out
-
-de = DE()
-de.model.resetBaselines()
-#print de.candidate().have
-#print de.candidate().score
-de.de(s=0.001)
+    

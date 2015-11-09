@@ -9,15 +9,17 @@ from Golinski import Golinski
 import sys
 
 class MaxWalkSat:
-        def __init__(self, probability = 0.5, no_steps = 10, baseline_top = -10**6, baseline_bottom = 10**6):
+        def __init__(self, model = "Schaffer", probability = 0.5, no_steps = 10, baseline_top = -10**6, baseline_bottom = 10**6):
                 self.n = 6
                 self.p = probability
                 self.evals = 0
                 self.steps = no_steps
                 self.number_of_evaluations = 0
                 self.threshold = - 400
-                #self.model = Schaffer()
-                self.model = Golinski()
+                if model == "Schaffer":
+                        self.model = Schaffer()
+                elif model == "Golinski":
+                        self.model = Golinski()
                 self.model.resetBaselines()
                 self.current_state = self.model.get_random_state()
 
@@ -74,6 +76,4 @@ class MaxWalkSat:
                         print output + "current best state energy(normalized) = " + str(self.model.aggregate_energy(best_state)) + " Evaluations: " + str(self.evals)
                 return best_state
 
-algorithm = MaxWalkSat()
-algorithm.run()
-print "Total evaluations: " + str(algorithm.evals)
+
