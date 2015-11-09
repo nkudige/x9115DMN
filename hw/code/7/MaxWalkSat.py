@@ -45,7 +45,7 @@ class MaxWalkSat:
                         #print self.model.top_bound[index]
                         temp_state[index] = self.model.bottom_bound[index] + (self.model.top_bound[index] - self.model.bottom_bound[index])*random()
                         if self.model.are_constraints_satisfied(temp_state):
-                                return temp_state, "?"
+                                return temp_state, "!"
                         else:
                                 return state,"."
                 else:

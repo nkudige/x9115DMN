@@ -93,7 +93,7 @@ class DE():
         for x in frontier:
             s = x.score
             new = self.extrapolate(frontier, x, f, cf)
-            if s == new.score:
+            if s > new.score:
                 output += "."
             elif new.score > s:
                 x.energy = new.energy
