@@ -6,7 +6,8 @@ from random import uniform
 from math import sqrt
 #from models import Golinski
 from Golinski import Golinski
-from Schaffer import Schaffer
+from Osyczka import Osyczka
+from Kursawe import Kursawe
 
 import sys
 
@@ -21,7 +22,7 @@ class Thing():
 
 
 class DE():
-    def __init__(self, model = "Schaffer"):
+    def __init__(self, model = "Osyczka"):
         self.top_bound = [3.6, 0.8, 28.0, 8.3, 8.3, 3.9, 5.5]
         self.bottom_bound = [2.6, 0.7, 17.0, 7.3, 7.3, 2.9, 5]
         self.f2_high = -10**6
@@ -29,10 +30,12 @@ class DE():
         self.f1_high = -10**6
         self.f1_low = 10**6
         self.evals = 0
-        if model == "Schaffer":
-            self.model = Schaffer()
+        if model == "Osyczka":
+            self.model = Osyczka()
         elif model == "Golinski":
             self.model = Golinski()
+        elif model == "Kursawe":
+            self.model = Kursawe()
         self.best_solution = Thing()
         self.best_solution.score = 0;
         self.best_solution.energy = 1;
