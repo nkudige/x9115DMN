@@ -102,6 +102,7 @@ class Osyczka:
                 return x
     def trim(self, x, d)  : # trim to legal range
         return max(self.low(d), min(x, self.high(d)))
+        
     def getNumberOfDecisions(self):
         return 6
     

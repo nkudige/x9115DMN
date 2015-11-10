@@ -8,6 +8,7 @@ from math import sqrt
 from Golinski import Golinski
 from Osyczka import Osyczka
 from Kursawe import Kursawe
+from Schaffer import Schaffer
 
 import sys
 
@@ -36,6 +37,8 @@ class DE():
             self.model = Golinski()
         elif model == "Kursawe":
             self.model = Kursawe()
+        elif model == "Schaffer":
+            self.model = Schaffer()
         self.best_solution = Thing()
         self.best_solution.score = 0;
         self.best_solution.energy = 1;

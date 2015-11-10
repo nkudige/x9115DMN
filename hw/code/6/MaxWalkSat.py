@@ -6,6 +6,7 @@ from random import random
 from Osyczka import Osyczka
 from Golinski import Golinski
 from Kursawe import Kursawe
+from Schaffer import Schaffer
 
 import sys
 
@@ -23,6 +24,8 @@ class MaxWalkSat:
                         self.model = Golinski()
                 elif model == "Kursawe":
                         self.model = Kursawe()
+                elif model == "Schaffer":
+                        self.model = Schaffer()
                 self.model.resetBaselines()
                 self.current_state = self.model.get_random_state()
 

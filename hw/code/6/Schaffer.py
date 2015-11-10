@@ -9,8 +9,8 @@ import sys
 
 class Schaffer:
     def __init__(self):
-        self.top_bound = [10, 10, 5, 5, 6, 10]
-        self.bottom_bound = [0, 0, 1, 1, 0, 0]
+        self.top_bound = [10**5]
+        self.bottom_bound = [-10**5]
         self.f1_low = 10**6
         self.f1_high = -10**6
         self.f2_low = 10**6
@@ -22,7 +22,7 @@ class Schaffer:
         self.threshold = self.baseline_low
     
     def decisions(self):
-        return [0, 1, 2, 3, 4, 5]
+        return [0]
     
     def low(self, d):
         return self.bottom_bound[d]
@@ -31,22 +31,12 @@ class Schaffer:
         return self.top_bound[d]
         
     def are_constraints_satisfied(self, x):
-            if x[0] + x[1] - 2 < 0:
-                    return False
-            elif 6 - x[0] - x[1] < 0:
-                    return False
-            elif 2 - x[1] + x[0] < 0:
-                    return False
-            elif 2 - x[0] + 3*x[1] < 0:
-                    return False
-            elif 4 - x[3] - (x[2] -3)**2 < 0:
-                    return False
-            elif (x[4] -3)**3 + x[5] - 4 < 0:
-                    return False
-            elif self.energy(x) <= self.threshold:
-                    return False
-            else:
-                    return True
+        if x[0] > 10**5 or x[0] < -10**5:
+            return False
+        elif self.energy(x) <= self.threshold:
+            return False
+        else:
+            return True
     
     def resetBaselines(self):
         f1low = f2low = sys.maxint
@@ -79,10 +69,10 @@ class Schaffer:
         self.f2_low = f2low
     
     def f1(self, x):
-        return -(25 * (x[0] - 2)**2 + (x[1] - 2)**2 + (x[2] - 1)**2 * (x[3] - 4)**2 + (x[4] - 1)**2)
+        return x[0]**2
     
     def f2(self, x):
-        return sum([i**2 for i in x])
+        return (x[0]-2)**2
         
     def energy(self, x):
         return self.f1(x) + self.f2(x)
@@ -100,7 +90,12 @@ class Schaffer:
                 x.append(randrange(low, high))
             if self.are_constraints_satisfied(x):
                 return x
-
+                
+    def trim(self, x, d)  : # trim to legal range
+        return max(self.low(d), min(x, self.high(d)))
+        
+    def getNumberOfDecisions(self):
+        return 1
     
     
     
