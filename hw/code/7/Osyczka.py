@@ -53,7 +53,7 @@ class Osyczka:
         f1high = f2high = -f1low
         low = sys.maxint
         high = -low
-        for _ in range(0, 1000):
+        for _ in range(0, 100000):
             state = self.get_random_state()
             state_energy = self.energy(state)
             f1_energy = self.f1(state)
@@ -93,6 +93,11 @@ class Osyczka:
     def normalize_energy(self, energy, low, high):
         return (energy - low)/(high - low)
     
+    def denormalize_energy(self, energy, low=None, high=None):
+        low = low if low else self.baseline_low
+        high = high if high else self.baseline_high
+        
+        return (high - low) * energy + low
     def get_random_state(self):
         while True:
             x = list()
@@ -102,6 +107,7 @@ class Osyczka:
                 return x
     def trim(self, x, d)  : # trim to legal range
         return max(self.low(d), min(x, self.high(d)))
+        
     def getNumberOfDecisions(self):
         return 6
     

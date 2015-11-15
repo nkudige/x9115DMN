@@ -37,6 +37,12 @@ class Kursawe:
     
     def normalize_energy(self, e, low, high):
         return (e - low)/(high - low)
+    
+    def denormalize_energy(self, energy, low=None, high=None):
+        low = low if low else self.baseline_low
+        high = high if high else self.baseline_high
+        
+        return (high - low) * energy + low
         
     def from_hell(self, x):
         return (sqrt(self.normalize_energy(self.f1(x), self.f1_low, self.f1_high)**2 + self.normalize_energy(self.f2(x), self.f2_low, self.f2_high)**2)/(sqrt(len(x))))
@@ -70,7 +76,7 @@ class Kursawe:
     def resetBaselines(self):
         f1low = f2low = sys.maxint
         f1high = f2high = -f1low
-        for _ in range(0, 1000):
+        for _ in range(0, 100000):
             state = self.get_random_state()
             f1_energy = self.f1(state)
             f2_energy = self.f2(state)

@@ -19,7 +19,7 @@ def run(algorithm, model):
     print "Total Evaluations: " + str(algo.evals)    
 
 for model in ["Osyczka", "Golinski", "Kursawe"]:
-    for algorithm in ["MaxWalkSat", "DE"]:
+    for algorithm in ["DE"]:
         print "===================================================================="
         print "Running " + algorithm + " for " + model
         run(algorithm, model)

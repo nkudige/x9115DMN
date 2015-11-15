@@ -15,6 +15,8 @@ class Golinski:
         self.f2_low = 10**6
         self.f1_high = -10**6
         self.f1_low = 10**6
+        self.baseline_low = 10**6
+        self.baseline_high = -10**6
     
     def f1(self, x):
         return 0.7854 * x[0] * (x[1]**2) * (10*(x[2]**2)/3 + 14.933*x[2] - 43.0934) - \
@@ -30,12 +32,18 @@ class Golinski:
     
     def normalize_energy(self, e, low, high):
         return (e - low)/(high - low)
+    
+    def denormalize_energy(self, energy, low=None, high=None):
+        low = low if low else self.baseline_low
+        high = high if high else self.baseline_high
+        
+        return (high - low) * energy + low
         
     def from_hell(self, x):
         return (sqrt(self.normalize_energy(self.f1(x), self.f1_low, self.f1_high)**2 + self.normalize_energy(self.f2(x), self.f2_low, self.f2_high)**2)/(sqrt(len(x))))
     
     def aggregate_energy(self, x):
-        return 1 - self.from_hell(x) 
+        return 1 - self.from_hell(x)
     
     def decisions(self):
         return [0, 1, 2, 3, 4, 5, 6]
@@ -72,12 +80,14 @@ class Golinski:
                 return x
     
     def resetBaselines(self):
-        f1low = f2low = sys.maxint
-        f1high = f2high = -f1low
-        for _ in range(0, 1000):
+        f1low = f2low = low = sys.maxint
+        f1high = f2high = high = -f1low
+        for _ in range(0, 100000):
             state = self.get_random_state()
             f1_energy = self.f1(state)
             f2_energy = self.f2(state)
+            state_energy = self.energy(state)
+            
             if f1_energy > f1high:
                 f1high = f1_energy
             if f1_energy < f1low:
@@ -86,6 +96,12 @@ class Golinski:
                 f2low = f2_energy
             if f2_energy > f2high:
                 f2high = f2_energy
+            
+            high = state_energy if state_energy > high else high
+            low = state_energy if state_energy < low else low
+
+        self.baseline_low = low
+        self.baseline_high = high
         self.f1_low = f1low
         self.f1_high = f1high
         self.f2_high = f2high
