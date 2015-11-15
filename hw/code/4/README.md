@@ -9,3 +9,5 @@ Programming Assignment 4
 * Run simulated annealing for kmax=1000 and summarize results
 
 Screenshot:
+
+![Simulated Annealing on Schaffer](https://cloud.githubusercontent.com/assets/4932677/11171152/bec74876-8bb6-11e5-8819-27a919954080.png)
