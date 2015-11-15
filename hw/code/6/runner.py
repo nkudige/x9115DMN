@@ -3,8 +3,8 @@ from random import randrange
 from random import randint
 from random import random
 #from models import Schaffer
-from Schaffer import Schaffer
-from Golinski import Golinski
+#from Schaffer import Schaffer
+#from Golinski import Golinski
 from MaxWalkSat import MaxWalkSat
 from DE import DE
 
@@ -18,7 +18,7 @@ def run(algorithm, model):
     print "Best State " + str(algo.run())
     print "Total Evaluations: " + str(algo.evals)    
 
-for model in ["Schaffer", "Golinski"]:
+for model in ["Osyczka", "Golinski", "Kursawe", "Schaffer"]:
     for algorithm in ["MaxWalkSat", "DE"]:
         print "===================================================================="
         print "Running " + algorithm + " for " + model

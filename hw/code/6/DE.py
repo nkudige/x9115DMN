@@ -31,6 +31,7 @@ class DE():
         self.f1_high = -10**6
         self.f1_low = 10**6
         self.evals = 0
+        self.median = []
         if model == "Osyczka":
             self.model = Osyczka()
         elif model == "Golinski":
@@ -42,6 +43,7 @@ class DE():
         self.best_solution = Thing()
         self.best_solution.score = 0;
         self.best_solution.energy = 1;
+        self.best_solution.have = []
         
     #Returns three different things that are not 'avoid'.
     def threeOthers(self, lst, avoid):
@@ -81,6 +83,7 @@ class DE():
             s       = 0.1
     ):
         frontier = [self.candidate() for _ in range(np)] 
+        median = []
         for k in range(max):
             total, n, output = self.update(f, cf, frontier)
             self.evals += n
@@ -88,26 +91,29 @@ class DE():
             #print output + "Frontier energy:" + str(total) + " Count:" + str(n) + " Max Energy:" + str(frontier[0].energy) + " Min Energy:" + str(frontier[len(frontier)-1].energy)
             min = frontier[0].energy
             max = frontier[len(frontier)-1].energy
+            median.append(frontier[int(len(frontier)/2)].energy)
             big = max - (max-min)*s/100
             new_frontier = [x for x in frontier if x.energy <= big]
             frontier = new_frontier
             if (n > 0 and total/n > (1 - epsilon)) or n <= 0 or len(frontier) < 3:
                 break
+        print "Median values:"
+        print median
         return self.best_solution.have
 
     def update(self, f, cf, frontier, total = 0.0, n = 0):
         output = ""
         for x in frontier:
-            s = x.score
+            s = x.energy
             new = self.extrapolate(frontier, x, f, cf)
-            if s > new.score:
+            if s < new.energy:
                 output += "."
-            elif new.score > s:
+            elif new.energy < s:
                 x.energy = new.energy
                 x.score = new.score
                 x.have  = new.have
                 output += "+"
-            if new.score > self.best_solution.score:
+            if new.energy < self.best_solution.energy:
                 self.best_solution.score = new.score
                 self.best_solution.have = new.have
                 self.best_solution.energy = new.energy
@@ -138,4 +144,3 @@ class DE():
         out.score = self.model.energy(out.have) # remember to score it
         out.energy = self.model.aggregate_energy(out.have)
         return out
-    

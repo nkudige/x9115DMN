@@ -53,7 +53,7 @@ class Osyczka:
         f1high = f2high = -f1low
         low = sys.maxint
         high = -low
-        for _ in range(0, 1000):
+        for _ in range(0, 10000):
             state = self.get_random_state()
             state_energy = self.energy(state)
             f1_energy = self.f1(state)

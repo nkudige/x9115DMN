@@ -35,7 +35,7 @@ class Golinski:
         return (sqrt(self.normalize_energy(self.f1(x), self.f1_low, self.f1_high)**2 + self.normalize_energy(self.f2(x), self.f2_low, self.f2_high)**2)/(sqrt(len(x))))
     
     def aggregate_energy(self, x):
-        return 1 - self.from_hell(x) 
+        return 1 - self.from_hell(x)
     
     def decisions(self):
         return [0, 1, 2, 3, 4, 5, 6]
@@ -74,7 +74,7 @@ class Golinski:
     def resetBaselines(self):
         f1low = f2low = sys.maxint
         f1high = f2high = -f1low
-        for _ in range(0, 1000):
+        for _ in range(0, 10000):
             state = self.get_random_state()
             f1_energy = self.f1(state)
             f2_energy = self.f2(state)

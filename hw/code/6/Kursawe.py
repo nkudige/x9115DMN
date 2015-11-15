@@ -70,7 +70,7 @@ class Kursawe:
     def resetBaselines(self):
         f1low = f2low = sys.maxint
         f1high = f2high = -f1low
-        for _ in range(0, 1000):
+        for _ in range(0, 100000):
             state = self.get_random_state()
             f1_energy = self.f1(state)
             f2_energy = self.f2(state)

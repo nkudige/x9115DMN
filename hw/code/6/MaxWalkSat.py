@@ -75,16 +75,16 @@ class MaxWalkSat:
                                 else:
                                         new_state = self.retry(current_state)
                                 operation = ""
-                                if self.model.energy(new_state) > self.model.energy(best_state):
+                                if self.model.aggregate_energy(new_state) < self.model.aggregate_energy(best_state):
                                         best_state = new_state
                                         operation = "!"
-                                elif self.model.energy(new_state) > self.model.energy(current_state):
+                                elif self.model.aggregate_energy(new_state) < self.model.aggregate_energy(current_state):
                                         operation = "+"        
-                                elif self.model.energy(new_state) < self.model.energy(current_state):
+                                elif self.model.aggregate_energy(new_state) > self.model.aggregate_energy(current_state):
                                         operation = "."
                                 output += operation
                                 if len(output) == 50:
-                                        print output + " current best state energy(normalized) = " + str(self.model.energy(best_state)) + " Evaluations: " + str(self.evals)
+                                        print output + " current best state energy(normalized) = " + str(self.model.aggregate_energy(best_state)) + " Evaluations: " + str(self.evals)
                                         output = ""
                 print output + " current best state energy(normalized) = " + str(self.model.aggregate_energy(best_state)) + " Evaluations: " + str(self.evals)
                 return best_state
