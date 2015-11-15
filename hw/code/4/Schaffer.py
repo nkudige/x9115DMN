@@ -71,10 +71,7 @@ class Schaffer:
     def aggregate_energy(self, x):
         return (sqrt(self.normalize_energy(self.f1(x), self.f1_low, self.f1_high)**2 + self.normalize_energy(self.f2(x), self.f2_low, self.f2_high)**2)/(sqrt(len(x))))
     
-    def normalize_energy(self, energy, low=None, high=None):
-        low = low if low else self.baseline_low
-        high = high if high else self.baseline_high
-        
+    def normalize_energy(self, energy, low, high):
         return (energy - low)/(high - low)
     
     def denormalize_energy(self, energy, low=None, high=None):

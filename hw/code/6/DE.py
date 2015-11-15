@@ -97,8 +97,8 @@ class DE():
             frontier = new_frontier
             if (n > 0 and total/n > (1 - epsilon)) or n <= 0 or len(frontier) < 3:
                 break
-        print "Median values:"
-        print median
+        # print "Median values:"
+        # print median
         return self.best_solution.have
 
     def update(self, f, cf, frontier, total = 0.0, n = 0):
@@ -123,7 +123,7 @@ class DE():
                 print output + " Best Solution: [",
                 for a in self.best_solution.have:
                     print("%.2f " % a),
-                print "] Energy: " + str(self.best_solution.energy) + " Evals: " + str(self.evals + n)
+                print "] Energy: " + str(self.best_solution.score) + " Evals: " + str(self.evals + n)
             n += 1
             total += x.energy
         return total, n, output

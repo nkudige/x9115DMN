@@ -17,7 +17,6 @@ class MaxWalkSat:
                 self.evals = 0
                 self.steps = no_steps
                 self.number_of_evaluations = 0
-                self.threshold = - 400
                 if model == "Osyczka":
                         self.model = Osyczka()
                 elif model == "Golinski":
@@ -27,6 +26,7 @@ class MaxWalkSat:
                 elif model == "Schaffer":
                         self.model = Schaffer()
                 self.model.resetBaselines()
+                self.threshold = self.model.baseline_low
                 self.current_state = self.model.get_random_state()
 
         def modify_to_better_state(self, state, index):
@@ -84,7 +84,7 @@ class MaxWalkSat:
                                         operation = "."
                                 output += operation
                                 if len(output) == 50:
-                                        print output + " current best state energy(normalized) = " + str(self.model.aggregate_energy(best_state)) + " Evaluations: " + str(self.evals)
+                                        print output + " best_energy = " + str(self.model.energy(best_state)) + " Evaluations: " + str(self.evals)
                                         output = ""
-                print output + " current best state energy(normalized) = " + str(self.model.aggregate_energy(best_state)) + " Evaluations: " + str(self.evals)
+                print output + " best_energy = " + str(self.model.energy(best_state)) + " Evaluations: " + str(self.evals)
                 return best_state
