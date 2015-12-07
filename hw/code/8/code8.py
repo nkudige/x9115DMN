@@ -9,6 +9,7 @@ from Osyczka import Osyczka
 from Golinski import Golinski
 from Kursawe import Kursawe
 from a12 import a12
+from sk import rdivDemo
 from DTLZ7 import DTLZ7
 import math
 import sys
@@ -380,6 +381,7 @@ class DE():
 
 
 model = DTLZ7(10, 2)
+eras=[]
 for i in xrange(20):
     for algorithm in ["MaxWalkSat", "SA", "DE"]:
         if algorithm == "MaxWalkSat":
@@ -388,7 +390,11 @@ for i in xrange(20):
             algo = SA("DTLZ7")
         elif algorithm == "DE":
             algo = DE("DTLZ7")
-        era_val =  algo.run()
-        print era_val
+        era = [model.normalize_val(model.eneergy(val)) for val in algo.run()]
+        era.insert(0, algorithm + str(i))
+        eras.append(era)
+        print era
+
+print rdivDemo(eras)
             
         
