@@ -4,15 +4,15 @@ This paper addresses about how to quantify how much one candidate solution domin
 
 # II. Background
 
-Differential Evolution
+*** Differential Evolution
 
 Differential Evolution is an algorithm that does not always guarantee an optimal solution, but is able to quickly reach an acceptable solution. Differential Evolution starts by initially generating a frontier by randomly generating candidates. After this step, it generates subsequent frontiers by updating the current frontier by generating new solutions that are a combination of candidates already existing in the frontier. If the newly generated candidate is better than the candidates used to generate this new solution, it gets replaced by this new solution. This goes on for a certain number of iterations and we now pick the best candidate solution from the pool frontier.
 
-Simulated Annealing
+*** Simulated Annealing
 
 Simulated Annealing is a probabilistic technique for approximating the global optimum of a given function. In Simulated Annealing, we start with a random candidate solution and randomly search the sample space for a better solution. Each time a new random solution is generated, we compare the new candidate with the best solution and the previous solution and determine whether to jump to the new solution or not with a certain probability. Also, we time the algorithm becomes less crazy and the probability of jumping to a worse solution decreases.
 
-Max Walk Sat
+*** Max Walk Sat
 
 Max Walk Sat is a local search algorithm. It is a lot less random than Simulated Annealing and is much simpler. It works by changing the values of one parameter at a time, while keeping the rest of the parameters fixed and always moves in the direction of better solution. It is possible to control/change the steps to move in the direction of the better solution. If the steps parameter is too high, it could miss a maxima or if it is too low, it could get caught in a local maxima. Also sometimes when the initially fixed parameters are not optimal, and when it finds out that the solution cannot be improved any better by varying the unfixed parameters, it tries to go back and change the fixed parameters and resume the algorithm. This is called retries.
 
