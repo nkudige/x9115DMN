@@ -20,8 +20,12 @@
 - **Selection**: This is where fitter individuals of a society are naturally more likely to survive than the others.
 - **Crossover**: This is the part where two "selected" individuals in the society reproduce and bring to the world a brand new child of theirs. This child naturally inherits several qualities from both its mother and its father.
 - **Mutation**: This explains how a new-born child may possess certain qualities that neither of its parents possesses. At some probability, the certain characteristics obtained from the child's parents may "mutate" and result in something neither of its parents possessed.
-Differential evolution consists of the following main steps:[3]
-[picture] 
+<p>Differential evolution consists of the following main steps:[3]</p>
+
+
+![alt tag](http://i.imgur.com/e7H0jyI.png?1)
+
+
 
 <p>In this project, we would like to utilize differential evolution for the purpose of tuning the parameters of genetic algorithm. The advantage of using differential evolution is that it doesn’t require the objective function to differentiable or continuous making this algorithm applicable to a wider variety of applications. </p>
 
