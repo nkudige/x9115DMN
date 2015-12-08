@@ -1,8 +1,7 @@
 from __future__ import division
-import random, pickle
+import random
 import numpy as np
 import pandas as pd
-from analysis import *
 from DTLZ import *
 
 mxsz = 0
@@ -91,7 +90,6 @@ def GeneticAlgorithms(Model, decisionsN, objectivesN, sd, candidatesN, generatio
     best_candidate_energy = 0
     last_100_best_frontier = best_frontier[:]
     
-    # inactivity_current = 0
     for i in xrange(1, generations + 1):
         if i % inactivity_max == 0:
             if terminate_early(last_100_best_frontier, best_frontier, threshold):
@@ -110,15 +108,7 @@ def GeneticAlgorithms(Model, decisionsN, objectivesN, sd, candidatesN, generatio
             next_generation.append(baby)
 
         pareto_frontier_new = get_pareto_frontier(next_generation)
-        (new_best_frontier, no_change) = fight(best_frontier, pareto_frontier_new)
-
-        # if no_change:
-        #     inactivity_current += 1
-        #     if inactivity_current == inactivity_max:
-        #         break
-        # else:
-        #     best_frontier = new_best_frontier
-        best_frontier = new_best_frontier
+        (best_frontier, no_change) = fight(best_frontier, pareto_frontier_new)
 
         population = next_generation
         pareto_frontier = pareto_frontier_new
@@ -140,6 +130,31 @@ def hveval(frontier, mn, mx, samples):
             count = count + 1
 
     return 1.0 * count / samples
+
+def interquartilerange(a):
+  q25, q75 = np.percentile(a, [25 ,75])
+  return q75 - q25
+
+def analyze_results(hypervolume, models, model_names, objectives, decisins):
+    y = {}
+    m = [model_names[x] for x in models]
+
+    for model in m:
+        y[model] = {}
+        a=[]
+        for objectivesN in objectives:
+            y[model][objectivesN] = {}
+            b=[]
+            for decisionsN in decisins:
+                y[model][objectivesN][decisionsN] = []
+                y[model][objectivesN][decisionsN].append(np.mean(hypervolume[model][objectivesN][decisionsN]))
+                y[model][objectivesN][decisionsN].append(np.median(hypervolume[model][objectivesN][decisionsN]))
+                y[model][objectivesN][decisionsN].append(interquartilerange(hypervolume[model][objectivesN][decisionsN]))
+                b.append(str(np.mean(hypervolume[model][objectivesN][decisionsN])) + ', ' + str(np.median(hypervolume[model][objectivesN][decisionsN])) + ', ' + str(interquartilerange(hypervolume[model][objectivesN][decisionsN])))
+            a.append(b)
+
+        print 'Model: ', model
+        print pd.DataFrame(data = a, columns = decisins, index = objectives)
 
 if __name__ == '__main__':
     candidatesN = 100
@@ -166,8 +181,5 @@ if __name__ == '__main__':
                 for sd in xrange(15):
                     pareto_frontier = GeneticAlgorithms(model, decisionsN, objectivesN, sd, candidatesN, generations, mutation_rate, inactivity_max, threshold)
                     hypervolume[model_names[model]][objectivesN][decisionsN].append(hveval(pareto_frontier, mn, mx, 100000))
-
-    with open('hypervolumes.bin', 'wb') as f:
-        pickle.dump(hypervolume, f)
 
     analyze_results(hypervolume, models, model_names, objectives, decisins)

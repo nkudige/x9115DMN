@@ -1,0 +1,793 @@
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  2  Decisions:  10
+Rep: 0    Terminated at Gen: 500     Best Energy: 477.627190629
+Rep: 1    Terminated at Gen: 300     Best Energy: 300.302918576
+Rep: 2    Terminated at Gen: 400     Best Energy: 881.405095344
+Rep: 3    Terminated at Gen: 300     Best Energy: 837.292701192
+Rep: 4    Terminated at Gen: 800     Best Energy: 586.808558586
+Rep: 5    Terminated at Gen: 200     Best Energy: 561.062124848
+Rep: 6    Terminated at Gen: 700     Best Energy: 736.8148477
+Rep: 7    Terminated at Gen: 600     Best Energy: 952.00177955
+Rep: 8    Terminated at Gen: 1000     Best Energy: 542.712599182
+Rep: 9    Terminated at Gen: 200     Best Energy: 440.540073441
+Rep: 10    Terminated at Gen: 600     Best Energy: 612.160261177
+Rep: 11    Terminated at Gen: 300     Best Energy: 367.954046025
+Rep: 12    Terminated at Gen: 200     Best Energy: 740.552231874
+Rep: 13    Terminated at Gen: 300     Best Energy: 885.663260903
+Rep: 14    Terminated at Gen: 200     Best Energy: 497.655643577
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  2  Decisions:  20
+Rep: 0    Terminated at Gen: 600     Best Energy: 386.94703778
+Rep: 1    Terminated at Gen: 800     Best Energy: 577.947544811
+Rep: 2    Terminated at Gen: 800     Best Energy: 503.747644785
+Rep: 3    Terminated at Gen: 400     Best Energy: 639.065836045
+Rep: 4    Terminated at Gen: 300     Best Energy: 671.616413994
+Rep: 5    Terminated at Gen: 800     Best Energy: 1128.31644217
+Rep: 6    Terminated at Gen: 500     Best Energy: 539.562820091
+Rep: 7    Terminated at Gen: 600     Best Energy: 649.37998767
+Rep: 8    Terminated at Gen: 700     Best Energy: 940.108017902
+Rep: 9    Terminated at Gen: 400     Best Energy: 940.543311945
+Rep: 10    Terminated at Gen: 600     Best Energy: 1269.67749525
+Rep: 11    Terminated at Gen: 300     Best Energy: 917.80921227
+Rep: 12    Terminated at Gen: 800     Best Energy: 527.477048511
+Rep: 13    Terminated at Gen: 300     Best Energy: 699.42673818
+Rep: 14    Terminated at Gen: 600     Best Energy: 770.73312602
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  2  Decisions:  40
+Rep: 0    Terminated at Gen: 500     Best Energy: 1551.48087673
+Rep: 1    Terminated at Gen: 500     Best Energy: 923.41623476
+Rep: 2    Terminated at Gen: 300     Best Energy: 1165.55685033
+Rep: 3    Terminated at Gen: 500     Best Energy: 576.120618021
+Rep: 4    Terminated at Gen: 900     Best Energy: 799.911528107
+Rep: 5    Terminated at Gen: 400     Best Energy: 998.371246042
+Rep: 6    Terminated at Gen: 200     Best Energy: 1016.07735594
+Rep: 7    Terminated at Gen: 600     Best Energy: 818.521269714
+Rep: 8    Terminated at Gen: 300     Best Energy: 1214.09188614
+Rep: 9    Terminated at Gen: 500     Best Energy: 1141.06697168
+Rep: 10    Terminated at Gen: 200     Best Energy: 877.668795558
+Rep: 11    Terminated at Gen: 400     Best Energy: 867.862350627
+Rep: 12    Terminated at Gen: 400     Best Energy: 688.169189615
+Rep: 13    Terminated at Gen: 500     Best Energy: 1018.1557748
+Rep: 14    Terminated at Gen: 500     Best Energy: 958.09425806
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  4  Decisions:  10
+Rep: 0    Terminated at Gen: 300     Best Energy: 712.216863791
+Rep: 1    Terminated at Gen: 900     Best Energy: 873.404324678
+Rep: 2    Terminated at Gen: 200     Best Energy: 697.480456638
+Rep: 3    Terminated at Gen: 400     Best Energy: 833.511157601
+Rep: 4    Terminated at Gen: 500     Best Energy: 674.964173139
+Rep: 5    Terminated at Gen: 200     Best Energy: 999.629244125
+Rep: 6    Terminated at Gen: 400     Best Energy: 680.50911357
+Rep: 7    Terminated at Gen: 700     Best Energy: 854.819253849
+Rep: 8    Terminated at Gen: 700     Best Energy: 743.558203405
+Rep: 9    Terminated at Gen: 200     Best Energy: 670.409495064
+Rep: 10    Terminated at Gen: 600     Best Energy: 1123.67894681
+Rep: 11    Terminated at Gen: 300     Best Energy: 1024.69934818
+Rep: 12    Terminated at Gen: 200     Best Energy: 707.788180974
+Rep: 13    Terminated at Gen: 300     Best Energy: 723.569763646
+Rep: 14    Terminated at Gen: 300     Best Energy: 1236.50225947
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  4  Decisions:  20
+Rep: 0    Terminated at Gen: 600     Best Energy: 899.47599772
+Rep: 1    Terminated at Gen: 800     Best Energy: 958.829942925
+Rep: 2    Terminated at Gen: 300     Best Energy: 804.442056031
+Rep: 3    Terminated at Gen: 1000     Best Energy: 1207.86399157
+Rep: 4    Terminated at Gen: 300     Best Energy: 789.598704841
+Rep: 5    Terminated at Gen: 400     Best Energy: 1067.50796372
+Rep: 6    Terminated at Gen: 300     Best Energy: 926.79649073
+Rep: 7    Terminated at Gen: 700     Best Energy: 887.001792365
+Rep: 8    Terminated at Gen: 400     Best Energy: 707.685549019
+Rep: 9    Terminated at Gen: 600     Best Energy: 977.313859173
+Rep: 10    Terminated at Gen: 400     Best Energy: 1348.65757602
+Rep: 11    Terminated at Gen: 400     Best Energy: 1245.6430771
+Rep: 12    Terminated at Gen: 300     Best Energy: 857.711501243
+Rep: 13    Terminated at Gen: 300     Best Energy: 749.913146696
+Rep: 14    Terminated at Gen: 500     Best Energy: 1261.17388463
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  4  Decisions:  40
+Rep: 0    Terminated at Gen: 200     Best Energy: 988.642733008
+Rep: 1    Terminated at Gen: 500     Best Energy: 1553.41227255
+Rep: 2    Terminated at Gen: 500     Best Energy: 1452.49013093
+Rep: 3    Terminated at Gen: 500     Best Energy: 1430.77840912
+Rep: 4    Terminated at Gen: 300     Best Energy: 732.087329078
+Rep: 5    Terminated at Gen: 400     Best Energy: 1401.63820849
+Rep: 6    Terminated at Gen: 700     Best Energy: 1397.32474935
+Rep: 7    Terminated at Gen: 600     Best Energy: 899.198991084
+Rep: 8    Terminated at Gen: 400     Best Energy: 1415.53697811
+Rep: 9    Terminated at Gen: 500     Best Energy: 806.924440518
+Rep: 10    Terminated at Gen: 1000     Best Energy: 1188.50082136
+Rep: 11    Terminated at Gen: 200     Best Energy: 1396.78326928
+Rep: 13    Terminated at Gen: 600     Best Energy: 988.766506651
+Rep: 14    Terminated at Gen: 500     Best Energy: 1280.24690264
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  6  Decisions:  10
+Rep: 0    Terminated at Gen: 500     Best Energy: 880.37685357
+Rep: 1    Terminated at Gen: 300     Best Energy: 1345.83302058
+Rep: 2    Terminated at Gen: 600     Best Energy: 871.410571985
+Rep: 3    Terminated at Gen: 400     Best Energy: 748.167480501
+Rep: 4    Terminated at Gen: 400     Best Energy: 1064.41398624
+Rep: 5    Terminated at Gen: 200     Best Energy: 977.420039358
+Rep: 6    Terminated at Gen: 300     Best Energy: 835.038811401
+Rep: 7    Terminated at Gen: 200     Best Energy: 1004.01648862
+Rep: 8    Terminated at Gen: 600     Best Energy: 915.676557543
+Rep: 9    Terminated at Gen: 400     Best Energy: 938.96976118
+Rep: 11    Terminated at Gen: 700     Best Energy: 1165.41164873
+Rep: 12    Terminated at Gen: 400     Best Energy: 977.290973447
+Rep: 13    Terminated at Gen: 300     Best Energy: 934.984944963
+Rep: 14    Terminated at Gen: 200     Best Energy: 1142.19785834
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  6  Decisions:  20
+Rep: 0    Terminated at Gen: 200     Best Energy: 832.475362787
+Rep: 1    Terminated at Gen: 900     Best Energy: 1243.08978255
+Rep: 2    Terminated at Gen: 800     Best Energy: 892.109477743
+Rep: 3    Terminated at Gen: 400     Best Energy: 799.657333047
+Rep: 4    Terminated at Gen: 900     Best Energy: 986.143326111
+Rep: 5    Terminated at Gen: 400     Best Energy: 1003.43396658
+Rep: 6    Terminated at Gen: 500     Best Energy: 887.92758644
+Rep: 7    Terminated at Gen: 700     Best Energy: 1092.97727584
+Rep: 8    Terminated at Gen: 300     Best Energy: 815.478140059
+Rep: 9    Terminated at Gen: 700     Best Energy: 1140.39906403
+Rep: 10    Terminated at Gen: 400     Best Energy: 1217.75111351
+Rep: 11    Terminated at Gen: 600     Best Energy: 1401.86894028
+Rep: 12    Terminated at Gen: 500     Best Energy: 769.408175089
+Rep: 13    Terminated at Gen: 800     Best Energy: 1088.82753005
+Rep: 14    Terminated at Gen: 400     Best Energy: 1472.56003022
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  6  Decisions:  40
+Rep: 0    Terminated at Gen: 700     Best Energy: 1559.22285553
+Rep: 1    Terminated at Gen: 500     Best Energy: 1340.10066107
+Rep: 2    Terminated at Gen: 500     Best Energy: 1540.58538607
+Rep: 3    Terminated at Gen: 900     Best Energy: 1228.39608601
+Rep: 4    Terminated at Gen: 300     Best Energy: 1493.66825861
+Rep: 5    Terminated at Gen: 500     Best Energy: 1181.45125722
+Rep: 6    Terminated at Gen: 500     Best Energy: 1610.48709049
+Rep: 7    Terminated at Gen: 600     Best Energy: 1036.84602357
+Rep: 8    Terminated at Gen: 400     Best Energy: 1747.1718115
+Rep: 9    Terminated at Gen: 1000     Best Energy: 1340.74439243
+Rep: 10    Terminated at Gen: 200     Best Energy: 1675.75509322
+Rep: 11    Terminated at Gen: 400     Best Energy: 1336.29141545
+Rep: 12    Terminated at Gen: 400     Best Energy: 1115.3414803
+Rep: 13    Terminated at Gen: 500     Best Energy: 1510.4587649
+Rep: 14    Terminated at Gen: 400     Best Energy: 2301.68290853
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  8  Decisions:  10
+Rep: 0    Terminated at Gen: 500     Best Energy: 893.105548831
+Rep: 1    Terminated at Gen: 400     Best Energy: 962.289373516
+Rep: 2    Terminated at Gen: 600     Best Energy: 866.786245139
+Rep: 4    Terminated at Gen: 400     Best Energy: 715.777934022
+Rep: 5    Terminated at Gen: 600     Best Energy: 1050.83675672
+Rep: 6    Terminated at Gen: 900     Best Energy: 877.980571559
+Rep: 7    Terminated at Gen: 400     Best Energy: 886.651214431
+Rep: 8    Terminated at Gen: 600     Best Energy: 943.919538671
+Rep: 9    Terminated at Gen: 300     Best Energy: 1053.83219651
+Rep: 10    Terminated at Gen: 500     Best Energy: 971.837222104
+Rep: 11    Terminated at Gen: 700     Best Energy: 926.474957168
+Rep: 12    Terminated at Gen: 200     Best Energy: 1043.42828167
+Rep: 13    Terminated at Gen: 500     Best Energy: 938.754411392
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  8  Decisions:  20
+Rep: 0    Terminated at Gen: 500     Best Energy: 1010.3648776
+Rep: 1    Terminated at Gen: 700     Best Energy: 990.162136672
+Rep: 2    Terminated at Gen: 300     Best Energy: 1069.98320462
+Rep: 3    Terminated at Gen: 500     Best Energy: 943.317690888
+Rep: 4    Terminated at Gen: 600     Best Energy: 863.430594713
+Rep: 5    Terminated at Gen: 800     Best Energy: 1106.87701863
+Rep: 6    Terminated at Gen: 300     Best Energy: 1253.7584313
+Rep: 7    Terminated at Gen: 600     Best Energy: 901.998769603
+Rep: 8    Terminated at Gen: 500     Best Energy: 1059.41322049
+Rep: 9    Terminated at Gen: 400     Best Energy: 1322.92216455
+Rep: 10    Terminated at Gen: 600     Best Energy: 989.153655752
+Rep: 11    Terminated at Gen: 700     Best Energy: 1045.0591558
+Rep: 12    Terminated at Gen: 600     Best Energy: 1288.03479262
+Rep: 13    Terminated at Gen: 500     Best Energy: 1278.74097987
+Rep: 14    Terminated at Gen: 400     Best Energy: 1422.71337542
+Model:  <class 'DTLZ.DTLZ1'>  Objectives:  8  Decisions:  40
+Rep: 0    Terminated at Gen: 800     Best Energy: 1496.61660551
+Rep: 1    Terminated at Gen: 700     Best Energy: 1629.68099224
+Rep: 2    Terminated at Gen: 300     Best Energy: 1258.98807451
+Rep: 3    Terminated at Gen: 400     Best Energy: 1241.05140931
+Rep: 4    Terminated at Gen: 800     Best Energy: 1322.49387558
+Rep: 5    Terminated at Gen: 600     Best Energy: 1682.32022233
+Rep: 6    Terminated at Gen: 600     Best Energy: 1146.8383006
+Rep: 7    Terminated at Gen: 700     Best Energy: 921.722086754
+Rep: 8    Terminated at Gen: 400     Best Energy: 1470.34359061
+Rep: 9    Terminated at Gen: 300     Best Energy: 1418.0050861
+Rep: 10    Terminated at Gen: 300     Best Energy: 1420.64213303
+Rep: 11    Terminated at Gen: 400     Best Energy: 1472.83742865
+Rep: 12    Terminated at Gen: 400     Best Energy: 1212.38535075
+Rep: 13    Terminated at Gen: 500     Best Energy: 1813.85350248
+Rep: 14    Terminated at Gen: 500     Best Energy: 1523.40531544
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  2  Decisions:  10
+Rep: 0    Terminated at Gen: 200     Best Energy: 1924.87892006
+Rep: 1    Terminated at Gen: 300     Best Energy: 1088.04741544
+Rep: 2    Terminated at Gen: 300     Best Energy: 1694.90961011
+Rep: 3    Terminated at Gen: 300     Best Energy: 2008.03430791
+Rep: 4    Terminated at Gen: 300     Best Energy: 1832.71394856
+Rep: 5    Terminated at Gen: 800     Best Energy: 1750.04160491
+Rep: 6    Terminated at Gen: 200     Best Energy: 1351.83060965
+Rep: 7    Terminated at Gen: 500     Best Energy: 1017.01483008
+Rep: 8    Terminated at Gen: 700     Best Energy: 1465.20910282
+Rep: 9    Terminated at Gen: 500     Best Energy: 1182.44339374
+Rep: 10    Terminated at Gen: 200     Best Energy: 1869.54457923
+Rep: 11    Terminated at Gen: 400     Best Energy: 1639.62785396
+Rep: 12    Terminated at Gen: 400     Best Energy: 1177.52430582
+Rep: 13    Terminated at Gen: 900     Best Energy: 1633.34234805
+Rep: 14    Terminated at Gen: 500     Best Energy: 1665.51381413
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  2  Decisions:  20
+Rep: 0    Terminated at Gen: 500     Best Energy: 1956.36137577
+Rep: 1    Terminated at Gen: 700     Best Energy: 1383.59224831
+Rep: 2    Terminated at Gen: 400     Best Energy: 1238.77060647
+Rep: 3    Terminated at Gen: 400     Best Energy: 2081.23090335
+Rep: 4    Terminated at Gen: 300     Best Energy: 1970.44012273
+Rep: 5    Terminated at Gen: 600     Best Energy: 2094.87514632
+Rep: 6    Terminated at Gen: 700     Best Energy: 1796.90287438
+Rep: 7    Terminated at Gen: 700     Best Energy: 1931.74546501
+Rep: 8    Terminated at Gen: 1000     Best Energy: 1988.4540725
+Rep: 9    Terminated at Gen: 400     Best Energy: 1214.13881062
+Rep: 11    Terminated at Gen: 700     Best Energy: 1362.09103953
+Rep: 12    Terminated at Gen: 400     Best Energy: 1901.79544543
+Rep: 13    Terminated at Gen: 500     Best Energy: 2454.7742033
+Rep: 14    Terminated at Gen: 500     Best Energy: 1012.65265922
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  2  Decisions:  40
+Rep: 0    Terminated at Gen: 700     Best Energy: 2509.91876761
+Rep: 1    Terminated at Gen: 400     Best Energy: 1863.91027452
+Rep: 2    Terminated at Gen: 200     Best Energy: 2224.59006625
+Rep: 3    Terminated at Gen: 500     Best Energy: 3094.83133252
+Rep: 4    Terminated at Gen: 500     Best Energy: 1934.30834453
+Rep: 5    Terminated at Gen: 600     Best Energy: 2368.40133695
+Rep: 6    Terminated at Gen: 700     Best Energy: 3000.77970914
+Rep: 7    Terminated at Gen: 700     Best Energy: 2323.12474517
+Rep: 8    Terminated at Gen: 800     Best Energy: 2453.06707091
+Rep: 9    Terminated at Gen: 900     Best Energy: 1857.53030533
+Rep: 10    Terminated at Gen: 600     Best Energy: 1183.14681136
+Rep: 11    Terminated at Gen: 400     Best Energy: 1823.3824589
+Rep: 12    Terminated at Gen: 400     Best Energy: 2828.1812599
+Rep: 14    Terminated at Gen: 500     Best Energy: 1437.82925383
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  4  Decisions:  10
+Rep: 0    Terminated at Gen: 600     Best Energy: 2199.94152875
+Rep: 1    Terminated at Gen: 700     Best Energy: 1521.77625858
+Rep: 2    Terminated at Gen: 200     Best Energy: 1634.79350117
+Rep: 4    Terminated at Gen: 200     Best Energy: 2552.99334155
+Rep: 5    Terminated at Gen: 600     Best Energy: 1688.14148421
+Rep: 6    Terminated at Gen: 200     Best Energy: 2155.66600878
+Rep: 7    Terminated at Gen: 500     Best Energy: 1881.97180228
+Rep: 8    Terminated at Gen: 700     Best Energy: 2091.05051765
+Rep: 9    Terminated at Gen: 500     Best Energy: 1716.1248549
+Rep: 10    Terminated at Gen: 200     Best Energy: 2494.38685239
+Rep: 11    Terminated at Gen: 500     Best Energy: 1653.37642797
+Rep: 12    Terminated at Gen: 400     Best Energy: 2340.00949543
+Rep: 14    Terminated at Gen: 500     Best Energy: 1675.93220875
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  4  Decisions:  20
+Rep: 0    Terminated at Gen: 700     Best Energy: 2090.89665978
+Rep: 2    Terminated at Gen: 400     Best Energy: 2447.32410796
+Rep: 3    Terminated at Gen: 1000     Best Energy: 1901.03097403
+Rep: 4    Terminated at Gen: 500     Best Energy: 1810.44070698
+Rep: 5    Terminated at Gen: 800     Best Energy: 2594.96256503
+Rep: 6    Terminated at Gen: 600     Best Energy: 1620.17782783
+Rep: 7    Terminated at Gen: 400     Best Energy: 2319.08677131
+Rep: 8    Terminated at Gen: 500     Best Energy: 2088.1451907
+Rep: 9    Terminated at Gen: 500     Best Energy: 2177.86045762
+Rep: 10    Terminated at Gen: 700     Best Energy: 2099.99821962
+Rep: 11    Terminated at Gen: 700     Best Energy: 2207.58706955
+Rep: 12    Terminated at Gen: 400     Best Energy: 1929.21817255
+Rep: 14    Terminated at Gen: 300     Best Energy: 2466.2711968
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  4  Decisions:  40
+Rep: 0    Terminated at Gen: 700     Best Energy: 2886.10865854
+Rep: 1    Terminated at Gen: 300     Best Energy: 2351.29366842
+Rep: 2    Terminated at Gen: 700     Best Energy: 2620.77298076
+Rep: 3    Terminated at Gen: 300     Best Energy: 3085.25785757
+Rep: 4    Terminated at Gen: 300     Best Energy: 2264.34137037
+Rep: 5    Terminated at Gen: 800     Best Energy: 2220.84961054
+Rep: 6    Terminated at Gen: 400     Best Energy: 3076.6502931
+Rep: 7    Terminated at Gen: 400     Best Energy: 3704.97850538
+Rep: 8    Terminated at Gen: 800     Best Energy: 2839.84346786
+Rep: 9    Terminated at Gen: 700     Best Energy: 2542.04309963
+Rep: 11    Terminated at Gen: 1000     Best Energy: 2338.01195024
+Rep: 12    Terminated at Gen: 900     Best Energy: 2631.59647484
+Rep: 13    Terminated at Gen: 600     Best Energy: 2404.65819643
+Rep: 14    Terminated at Gen: 500     Best Energy: 1489.10447814
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  6  Decisions:  10
+Rep: 0    Terminated at Gen: 600     Best Energy: 2474.64622823
+Rep: 1    Terminated at Gen: 600     Best Energy: 2137.90972507
+Rep: 2    Terminated at Gen: 800     Best Energy: 1936.28407501
+Rep: 3    Terminated at Gen: 200     Best Energy: 2008.03430791
+Rep: 4    Terminated at Gen: 900     Best Energy: 1421.52809815
+Rep: 5    Terminated at Gen: 600     Best Energy: 2334.36221498
+Rep: 6    Terminated at Gen: 700     Best Energy: 2026.08953073
+Rep: 7    Terminated at Gen: 1000     Best Energy: 1949.66281153
+Rep: 8    Terminated at Gen: 500     Best Energy: 2015.15243994
+Rep: 9    Terminated at Gen: 1000     Best Energy: 2371.61508518
+Rep: 10    Terminated at Gen: 200     Best Energy: 2675.67472322
+Rep: 11    Terminated at Gen: 1000     Best Energy: 1970.53212729
+Rep: 12    Terminated at Gen: 300     Best Energy: 2232.90349763
+Rep: 13    Terminated at Gen: 700     Best Energy: 2267.14776351
+Rep: 14    Terminated at Gen: 500     Best Energy: 1672.75898913
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  6  Decisions:  20
+Rep: 1    Terminated at Gen: 300     Best Energy: 2462.75961311
+Rep: 2    Terminated at Gen: 800     Best Energy: 2779.28833908
+Rep: 3    Terminated at Gen: 600     Best Energy: 1891.1591508
+Rep: 4    Terminated at Gen: 300     Best Energy: 2794.51033544
+Rep: 5    Terminated at Gen: 400     Best Energy: 2499.69780592
+Rep: 6    Terminated at Gen: 700     Best Energy: 2044.21938536
+Rep: 7    Terminated at Gen: 400     Best Energy: 2225.69527674
+Rep: 8    Terminated at Gen: 500     Best Energy: 3040.73783949
+Rep: 9    Terminated at Gen: 1000     Best Energy: 2622.3183023
+Rep: 10    Terminated at Gen: 900     Best Energy: 3255.56235568
+Rep: 11    Terminated at Gen: 1000     Best Energy: 2861.59428019
+Rep: 12    Terminated at Gen: 400     Best Energy: 2553.03054352
+Rep: 13    Terminated at Gen: 700     Best Energy: 2683.61064234
+Rep: 14    Terminated at Gen: 500     Best Energy: 2677.1532154
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  6  Decisions:  40
+Rep: 1    Terminated at Gen: 300     Best Energy: 2977.82405973
+Rep: 2    Terminated at Gen: 400     Best Energy: 2643.18871233
+Rep: 4    Terminated at Gen: 300     Best Energy: 2625.22053405
+Rep: 5    Terminated at Gen: 800     Best Energy: 1861.49870615
+Rep: 7    Terminated at Gen: 400     Best Energy: 3368.12561002
+Rep: 8    Terminated at Gen: 800     Best Energy: 2966.18994122
+Rep: 9    Terminated at Gen: 1000     Best Energy: 3178.08113384
+Rep: 10    Terminated at Gen: 600     Best Energy: 3400.02215181
+Rep: 11    Terminated at Gen: 500     Best Energy: 2252.69065233
+Rep: 12    Terminated at Gen: 400     Best Energy: 3322.74119922
+Rep: 13    Terminated at Gen: 500     Best Energy: 3888.84334106
+Rep: 14    Terminated at Gen: 300     Best Energy: 2398.54424355
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  8  Decisions:  10
+Rep: 1    Terminated at Gen: 300     Best Energy: 2099.58428493
+Rep: 2    Terminated at Gen: 300     Best Energy: 1882.80330398
+Rep: 3    Terminated at Gen: 500     Best Energy: 2088.0840625
+Rep: 4    Terminated at Gen: 800     Best Energy: 2453.90323289
+Rep: 5    Terminated at Gen: 300     Best Energy: 2439.49204229
+Rep: 6    Terminated at Gen: 200     Best Energy: 2142.69462182
+Rep: 7    Terminated at Gen: 500     Best Energy: 1962.55249565
+Rep: 8    Terminated at Gen: 400     Best Energy: 1809.40370387
+Rep: 9    Terminated at Gen: 500     Best Energy: 2204.68572058
+Rep: 10    Terminated at Gen: 200     Best Energy: 2627.30771863
+Rep: 11    Terminated at Gen: 1000     Best Energy: 2034.64806332
+Rep: 12    Terminated at Gen: 200     Best Energy: 2299.84823106
+Rep: 13    Terminated at Gen: 300     Best Energy: 2566.81638636
+Rep: 14    Terminated at Gen: 500     Best Energy: 1683.60063155
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  8  Decisions:  20
+Rep: 0    Terminated at Gen: 600     Best Energy: 2984.11806106
+Rep: 1    Terminated at Gen: 900     Best Energy: 2698.71998249
+Rep: 2    Terminated at Gen: 200     Best Energy: 2396.49471903
+Rep: 3    Terminated at Gen: 600     Best Energy: 2733.77435414
+Rep: 4    Terminated at Gen: 300     Best Energy: 3350.2583239
+Rep: 5    Terminated at Gen: 500     Best Energy: 2749.26779593
+Rep: 6    Terminated at Gen: 700     Best Energy: 2363.03280126
+Rep: 7    Terminated at Gen: 400     Best Energy: 2959.22273554
+Rep: 8    Terminated at Gen: 600     Best Energy: 2841.08290909
+Rep: 9    Terminated at Gen: 500     Best Energy: 2890.83271814
+Rep: 10    Terminated at Gen: 900     Best Energy: 2797.08123889
+Rep: 11    Terminated at Gen: 600     Best Energy: 2347.72584193
+Rep: 12    Terminated at Gen: 400     Best Energy: 2351.62764171
+Rep: 13    Terminated at Gen: 600     Best Energy: 3328.17391099
+Rep: 14    Terminated at Gen: 500     Best Energy: 3017.4014234
+Model:  <class 'DTLZ.DTLZ3'>  Objectives:  8  Decisions:  40
+Rep: 0    Terminated at Gen: 600     Best Energy: 4306.05351041
+Rep: 1    Terminated at Gen: 300     Best Energy: 3585.61514239
+Rep: 2    Terminated at Gen: 400     Best Energy: 2738.23683996
+Rep: 3    Terminated at Gen: 600     Best Energy: 3220.9202568
+Rep: 4    Terminated at Gen: 300     Best Energy: 1982.76755845
+Rep: 5    Terminated at Gen: 400     Best Energy: 2875.20583484
+Rep: 6    Terminated at Gen: 700     Best Energy: 3272.38475265
+Rep: 7    Terminated at Gen: 400     Best Energy: 2841.18343604
+Rep: 8    Terminated at Gen: 800     Best Energy: 2938.29136964
+Rep: 9    Terminated at Gen: 900     Best Energy: 3187.24730146
+Rep: 10    Terminated at Gen: 600     Best Energy: 3115.53384688
+Rep: 11    Terminated at Gen: 700     Best Energy: 2364.8439181
+Rep: 12    Terminated at Gen: 400     Best Energy: 3794.25659656
+Rep: 13    Terminated at Gen: 300     Best Energy: 3084.89229038
+Rep: 14    Terminated at Gen: 400     Best Energy: 3372.21442252
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  2  Decisions:  10
+Rep: 0    Terminated at Gen: 300     Best Energy: 3.39707201091
+Rep: 1    Terminated at Gen: 200     Best Energy: 3.30442615793
+Rep: 2    Terminated at Gen: 200     Best Energy: 3.60889607203
+Rep: 3    Terminated at Gen: 400     Best Energy: 3.52588762655
+Rep: 4    Terminated at Gen: 200     Best Energy: 3.22223357296
+Rep: 5    Terminated at Gen: 300     Best Energy: 3.44714041798
+Rep: 6    Terminated at Gen: 300     Best Energy: 3.42719745245
+Rep: 7    Terminated at Gen: 400     Best Energy: 3.39361648641
+Rep: 8    Terminated at Gen: 200     Best Energy: 3.30129640531
+Rep: 9    Terminated at Gen: 400     Best Energy: 3.47900499793
+Rep: 10    Terminated at Gen: 200     Best Energy: 3.77217499905
+Rep: 11    Terminated at Gen: 200     Best Energy: 3.00833560739
+Rep: 12    Terminated at Gen: 300     Best Energy: 3.29173302404
+Rep: 13    Terminated at Gen: 300     Best Energy: 3.4933621445
+Rep: 14    Terminated at Gen: 200     Best Energy: 3.59780371941
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  2  Decisions:  20
+Rep: 0    Terminated at Gen: 400     Best Energy: 4.60557410872
+Rep: 1    Terminated at Gen: 200     Best Energy: 4.76264405022
+Rep: 2    Terminated at Gen: 200     Best Energy: 4.37303514527
+Rep: 3    Terminated at Gen: 300     Best Energy: 4.56676813946
+Rep: 4    Terminated at Gen: 200     Best Energy: 4.35791067495
+Rep: 5    Terminated at Gen: 200     Best Energy: 4.9126026015
+Rep: 6    Terminated at Gen: 200     Best Energy: 4.12067260367
+Rep: 7    Terminated at Gen: 300     Best Energy: 4.7564210513
+Rep: 8    Terminated at Gen: 400     Best Energy: 5.08268840492
+Rep: 9    Terminated at Gen: 300     Best Energy: 4.57086180692
+Rep: 10    Terminated at Gen: 400     Best Energy: 4.71335699341
+Rep: 11    Terminated at Gen: 200     Best Energy: 4.84673971658
+Rep: 12    Terminated at Gen: 200     Best Energy: 4.41458988944
+Rep: 13    Terminated at Gen: 300     Best Energy: 4.74546668834
+Rep: 14    Terminated at Gen: 600     Best Energy: 4.31784969438
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  2  Decisions:  40
+Rep: 0    Terminated at Gen: 400     Best Energy: 6.82495102314
+Rep: 1    Terminated at Gen: 200     Best Energy: 7.6367398103
+Rep: 2    Terminated at Gen: 200     Best Energy: 6.33850889467
+Rep: 3    Terminated at Gen: 300     Best Energy: 7.60378891642
+Rep: 4    Terminated at Gen: 200     Best Energy: 7.16176180393
+Rep: 5    Terminated at Gen: 200     Best Energy: 6.68983155454
+Rep: 6    Terminated at Gen: 200     Best Energy: 7.00930417644
+Rep: 7    Terminated at Gen: 400     Best Energy: 6.96198092826
+Rep: 8    Terminated at Gen: 300     Best Energy: 7.19943063826
+Rep: 9    Terminated at Gen: 500     Best Energy: 7.17495034399
+Rep: 10    Terminated at Gen: 200     Best Energy: 6.35965580218
+Rep: 11    Terminated at Gen: 200     Best Energy: 6.65973583224
+Rep: 12    Terminated at Gen: 200     Best Energy: 6.51616223529
+Rep: 13    Terminated at Gen: 200     Best Energy: 6.90008504189
+Rep: 14    Terminated at Gen: 300     Best Energy: 7.23461478908
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  4  Decisions:  10
+Rep: 0    Terminated at Gen: 300     Best Energy: 3.09842226326
+Rep: 1    Terminated at Gen: 300     Best Energy: 3.39885242118
+Rep: 2    Terminated at Gen: 200     Best Energy: 3.61938738463
+Rep: 3    Terminated at Gen: 200     Best Energy: 3.40728192944
+Rep: 4    Terminated at Gen: 200     Best Energy: 3.35148042608
+Rep: 5    Terminated at Gen: 300     Best Energy: 3.33207106154
+Rep: 6    Terminated at Gen: 200     Best Energy: 3.68606423962
+Rep: 7    Terminated at Gen: 600     Best Energy: 3.48438334452
+Rep: 8    Terminated at Gen: 200     Best Energy: 3.25471557764
+Rep: 9    Terminated at Gen: 200     Best Energy: 3.34977122782
+Rep: 10    Terminated at Gen: 200     Best Energy: 3.48037399985
+Rep: 11    Terminated at Gen: 200     Best Energy: 3.11334608594
+Rep: 12    Terminated at Gen: 200     Best Energy: 3.22128119756
+Rep: 13    Terminated at Gen: 300     Best Energy: 3.32159452033
+Rep: 14    Terminated at Gen: 300     Best Energy: 3.41263723245
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  4  Decisions:  20
+Rep: 0    Terminated at Gen: 300     Best Energy: 4.72340800747
+Rep: 1    Terminated at Gen: 200     Best Energy: 4.67807460736
+Rep: 2    Terminated at Gen: 300     Best Energy: 4.79372005125
+Rep: 3    Terminated at Gen: 300     Best Energy: 4.70253344421
+Rep: 4    Terminated at Gen: 200     Best Energy: 4.64389965061
+Rep: 5    Terminated at Gen: 300     Best Energy: 4.99218553899
+Rep: 6    Terminated at Gen: 200     Best Energy: 4.63824992332
+Rep: 7    Terminated at Gen: 200     Best Energy: 4.71183473839
+Rep: 8    Terminated at Gen: 200     Best Energy: 4.88507525639
+Rep: 9    Terminated at Gen: 300     Best Energy: 4.19687450607
+Rep: 10    Terminated at Gen: 600     Best Energy: 4.7632247123
+Rep: 11    Terminated at Gen: 500     Best Energy: 4.37990906053
+Rep: 12    Terminated at Gen: 200     Best Energy: 4.32166073129
+Rep: 13    Terminated at Gen: 200     Best Energy: 4.85221216924
+Rep: 14    Terminated at Gen: 200     Best Energy: 4.58971363871
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  4  Decisions:  40
+Rep: 0    Terminated at Gen: 300     Best Energy: 7.87431295729
+Rep: 1    Terminated at Gen: 200     Best Energy: 7.91382142319
+Rep: 2    Terminated at Gen: 200     Best Energy: 7.62223101389
+Rep: 3    Terminated at Gen: 300     Best Energy: 7.37857641505
+Rep: 4    Terminated at Gen: 200     Best Energy: 7.09237775274
+Rep: 5    Terminated at Gen: 200     Best Energy: 6.7118672549
+Rep: 6    Terminated at Gen: 200     Best Energy: 7.52887599653
+Rep: 7    Terminated at Gen: 400     Best Energy: 7.27787005512
+Rep: 8    Terminated at Gen: 300     Best Energy: 6.99675053724
+Rep: 9    Terminated at Gen: 200     Best Energy: 7.30124032585
+Rep: 10    Terminated at Gen: 200     Best Energy: 6.68129782464
+Rep: 11    Terminated at Gen: 200     Best Energy: 7.62454334678
+Rep: 12    Terminated at Gen: 200     Best Energy: 7.33873913573
+Rep: 13    Terminated at Gen: 200     Best Energy: 7.32285042611
+Rep: 14    Terminated at Gen: 300     Best Energy: 7.63956336221
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  6  Decisions:  10
+Rep: 0    Terminated at Gen: 100     Best Energy: 3.3069102504
+Rep: 1    Terminated at Gen: 100     Best Energy: 3.09530995419
+Rep: 2    Terminated at Gen: 100     Best Energy: 3.24408973357
+Rep: 3    Terminated at Gen: 100     Best Energy: 3.17412583015
+Rep: 4    Terminated at Gen: 100     Best Energy: 3.29686716551
+Rep: 5    Terminated at Gen: 100     Best Energy: 3.4240740182
+Rep: 6    Terminated at Gen: 100     Best Energy: 3.2603200865
+Rep: 7    Terminated at Gen: 100     Best Energy: 3.19529408325
+Rep: 8    Terminated at Gen: 100     Best Energy: 3.16226276768
+Rep: 9    Terminated at Gen: 100     Best Energy: 3.32273855558
+Rep: 10    Terminated at Gen: 100     Best Energy: 3.25873529641
+Rep: 11    Terminated at Gen: 100     Best Energy: 3.24780720654
+Rep: 12    Terminated at Gen: 100     Best Energy: 3.21784505793
+Rep: 13    Terminated at Gen: 100     Best Energy: 3.41592501616
+Rep: 14    Terminated at Gen: 100     Best Energy: 3.47765343844
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  6  Decisions:  20
+Rep: 0    Terminated at Gen: 100     Best Energy: 4.70559243083
+Rep: 1    Terminated at Gen: 100     Best Energy: 5.06079913699
+Rep: 2    Terminated at Gen: 100     Best Energy: 4.26943011412
+Rep: 3    Terminated at Gen: 200     Best Energy: 4.97390757609
+Rep: 4    Terminated at Gen: 100     Best Energy: 4.71988709412
+Rep: 5    Terminated at Gen: 100     Best Energy: 4.50388182509
+Rep: 6    Terminated at Gen: 200     Best Energy: 4.50586171952
+Rep: 7    Terminated at Gen: 100     Best Energy: 4.9045970491
+Rep: 8    Terminated at Gen: 100     Best Energy: 5.00338023444
+Rep: 9    Terminated at Gen: 100     Best Energy: 5.29435588921
+Rep: 10    Terminated at Gen: 100     Best Energy: 4.87895902263
+Rep: 11    Terminated at Gen: 100     Best Energy: 4.5198371496
+Rep: 12    Terminated at Gen: 100     Best Energy: 4.98856345289
+Rep: 13    Terminated at Gen: 100     Best Energy: 5.11539932908
+Rep: 14    Terminated at Gen: 100     Best Energy: 4.41144217053
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  6  Decisions:  40
+Rep: 0    Terminated at Gen: 100     Best Energy: 7.15473532623
+Rep: 1    Terminated at Gen: 100     Best Energy: 7.79735249972
+Rep: 2    Terminated at Gen: 200     Best Energy: 6.93238680275
+Rep: 3    Terminated at Gen: 100     Best Energy: 7.2325125289
+Rep: 4    Terminated at Gen: 100     Best Energy: 8.28956699839
+Rep: 5    Terminated at Gen: 100     Best Energy: 7.21677336157
+Rep: 6    Terminated at Gen: 100     Best Energy: 8.0267815669
+Rep: 7    Terminated at Gen: 100     Best Energy: 7.61324554126
+Rep: 8    Terminated at Gen: 100     Best Energy: 6.86358369983
+Rep: 9    Terminated at Gen: 200     Best Energy: 7.57479825859
+Rep: 10    Terminated at Gen: 100     Best Energy: 7.52373517455
+Rep: 11    Terminated at Gen: 100     Best Energy: 6.86924523794
+Rep: 12    Terminated at Gen: 100     Best Energy: 7.33465898292
+Rep: 13    Terminated at Gen: 100     Best Energy: 7.1101291465
+Rep: 14    Terminated at Gen: 200     Best Energy: 7.41035305266
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  8  Decisions:  10
+Rep: 0    Terminated at Gen: 100     Best Energy: 3.45754488535
+Rep: 1    Terminated at Gen: 100     Best Energy: 3.2189341167
+Rep: 2    Terminated at Gen: 100     Best Energy: 3.27541398226
+Rep: 3    Terminated at Gen: 100     Best Energy: 3.16496084393
+Rep: 4    Terminated at Gen: 100     Best Energy: 3.35421623125
+Rep: 5    Terminated at Gen: 100     Best Energy: 3.35044275247
+Rep: 6    Terminated at Gen: 100     Best Energy: 3.35323832694
+Rep: 7    Terminated at Gen: 100     Best Energy: 3.18116400024
+Rep: 8    Terminated at Gen: 100     Best Energy: 3.28851577757
+Rep: 9    Terminated at Gen: 100     Best Energy: 3.08085765694
+Rep: 10    Terminated at Gen: 100     Best Energy: 3.44931255608
+Rep: 11    Terminated at Gen: 100     Best Energy: 3.3184388502
+Rep: 12    Terminated at Gen: 100     Best Energy: 3.53329360934
+Rep: 13    Terminated at Gen: 100     Best Energy: 3.15065298903
+Rep: 14    Terminated at Gen: 100     Best Energy: 3.26483498547
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  8  Decisions:  20
+Rep: 0    Terminated at Gen: 100     Best Energy: 4.86747402025
+Rep: 1    Terminated at Gen: 100     Best Energy: 5.00573162285
+Rep: 2    Terminated at Gen: 100     Best Energy: 4.75127364591
+Rep: 3    Terminated at Gen: 100     Best Energy: 4.78584355352
+Rep: 4    Terminated at Gen: 100     Best Energy: 5.0499752406
+Rep: 5    Terminated at Gen: 100     Best Energy: 4.2991707797
+Rep: 6    Terminated at Gen: 100     Best Energy: 4.52151805748
+Rep: 7    Terminated at Gen: 100     Best Energy: 4.76833596435
+Rep: 8    Terminated at Gen: 100     Best Energy: 4.65769994059
+Rep: 9    Terminated at Gen: 100     Best Energy: 5.06790890304
+Rep: 10    Terminated at Gen: 100     Best Energy: 4.43992601216
+Rep: 11    Terminated at Gen: 100     Best Energy: 4.52093453901
+Rep: 12    Terminated at Gen: 100     Best Energy: 4.92081868233
+Rep: 13    Terminated at Gen: 100     Best Energy: 4.65066418055
+Rep: 14    Terminated at Gen: 100     Best Energy: 4.43168009161
+Model:  <class 'DTLZ.DTLZ5'>  Objectives:  8  Decisions:  40
+Rep: 0    Terminated at Gen: 100     Best Energy: 7.12285963018
+Rep: 1    Terminated at Gen: 100     Best Energy: 7.22947882631
+Rep: 2    Terminated at Gen: 100     Best Energy: 7.61417959171
+Rep: 3    Terminated at Gen: 100     Best Energy: 7.3974858407
+Rep: 4    Terminated at Gen: 100     Best Energy: 7.17235333255
+Rep: 5    Terminated at Gen: 100     Best Energy: 7.25406035564
+Rep: 6    Terminated at Gen: 100     Best Energy: 7.77080693604
+Rep: 7    Terminated at Gen: 100     Best Energy: 7.29631947802
+Rep: 8    Terminated at Gen: 100     Best Energy: 6.83365869406
+Rep: 9    Terminated at Gen: 100     Best Energy: 7.58643486871
+Rep: 10    Terminated at Gen: 100     Best Energy: 7.18365229048
+Rep: 11    Terminated at Gen: 100     Best Energy: 6.98460728778
+Rep: 12    Terminated at Gen: 100     Best Energy: 7.85909636686
+Rep: 13    Terminated at Gen: 100     Best Energy: 7.87509913294
+Rep: 14    Terminated at Gen: 100     Best Energy: 7.23193597088
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  2  Decisions:  10
+Rep: 0    Terminated at Gen: 200     Best Energy: 14.4706821167
+Rep: 1    Terminated at Gen: 300     Best Energy: 14.2341139671
+Rep: 2    Terminated at Gen: 200     Best Energy: 11.6585481933
+Rep: 3    Terminated at Gen: 300     Best Energy: 14.4246232514
+Rep: 4    Terminated at Gen: 500     Best Energy: 14.3700540121
+Rep: 6    Terminated at Gen: 400     Best Energy: 12.0061846212
+Rep: 7    Terminated at Gen: 500     Best Energy: 11.4508425254
+Rep: 8    Terminated at Gen: 600     Best Energy: 13.6359565336
+Rep: 9    Terminated at Gen: 400     Best Energy: 15.6619605151
+Rep: 10    Terminated at Gen: 600     Best Energy: 12.53997193
+Rep: 11    Terminated at Gen: 200     Best Energy: 14.5278271307
+Rep: 12    Terminated at Gen: 600     Best Energy: 15.3710408564
+Rep: 13    Terminated at Gen: 300     Best Energy: 14.423696819
+Rep: 14    Terminated at Gen: 800     Best Energy: 15.1666000513
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  2  Decisions:  20
+Rep: 0    Terminated at Gen: 100     Best Energy: 27.9572658125
+Rep: 1    Terminated at Gen: 100     Best Energy: 28.2658315692
+Rep: 2    Terminated at Gen: 100     Best Energy: 29.4783238054
+Rep: 3    Terminated at Gen: 100     Best Energy: 28.6513692074
+Rep: 4    Terminated at Gen: 100     Best Energy: 28.6406352023
+Rep: 5    Terminated at Gen: 100     Best Energy: 30.1606236983
+Rep: 6    Terminated at Gen: 100     Best Energy: 27.8211027378
+Rep: 7    Terminated at Gen: 100     Best Energy: 28.7235925479
+Rep: 8    Terminated at Gen: 100     Best Energy: 27.9522562492
+Rep: 9    Terminated at Gen: 100     Best Energy: 30.6493609284
+Rep: 10    Terminated at Gen: 100     Best Energy: 29.4963136903
+Rep: 11    Terminated at Gen: 100     Best Energy: 29.8711491586
+Rep: 12    Terminated at Gen: 100     Best Energy: 29.8889349156
+Rep: 13    Terminated at Gen: 100     Best Energy: 29.4491874486
+Rep: 14    Terminated at Gen: 100     Best Energy: 28.7698825031
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  2  Decisions:  40
+Rep: 0    Terminated at Gen: 100     Best Energy: 50.1956707794
+Rep: 1    Terminated at Gen: 100     Best Energy: 50.8076993804
+Rep: 2    Terminated at Gen: 100     Best Energy: 51.6548941717
+Rep: 3    Terminated at Gen: 100     Best Energy: 50.6490120153
+Rep: 4    Terminated at Gen: 100     Best Energy: 49.6373528035
+Rep: 5    Terminated at Gen: 100     Best Energy: 51.4062668049
+Rep: 6    Terminated at Gen: 100     Best Energy: 53.655342604
+Rep: 7    Terminated at Gen: 100     Best Energy: 49.6339602401
+Rep: 8    Terminated at Gen: 100     Best Energy: 51.8601054271
+Rep: 9    Terminated at Gen: 100     Best Energy: 50.5772130031
+Rep: 10    Terminated at Gen: 100     Best Energy: 52.7911376992
+Rep: 11    Terminated at Gen: 100     Best Energy: 49.599466793
+Rep: 12    Terminated at Gen: 100     Best Energy: 53.0521758701
+Rep: 13    Terminated at Gen: 100     Best Energy: 49.7373158139
+Rep: 14    Terminated at Gen: 100     Best Energy: 52.5250443407
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  4  Decisions:  10
+Rep: 0    Terminated at Gen: 100     Best Energy: 14.9266094102
+Rep: 1    Terminated at Gen: 100     Best Energy: 15.4976520591
+Rep: 2    Terminated at Gen: 100     Best Energy: 16.2876734562
+Rep: 3    Terminated at Gen: 100     Best Energy: 16.1371944756
+Rep: 4    Terminated at Gen: 100     Best Energy: 14.8920140764
+Rep: 5    Terminated at Gen: 100     Best Energy: 16.4314781163
+Rep: 6    Terminated at Gen: 100     Best Energy: 13.9963949231
+Rep: 7    Terminated at Gen: 100     Best Energy: 14.6514506714
+Rep: 8    Terminated at Gen: 100     Best Energy: 16.2769247915
+Rep: 9    Terminated at Gen: 100     Best Energy: 16.0366365169
+Rep: 10    Terminated at Gen: 100     Best Energy: 17.0285366434
+Rep: 11    Terminated at Gen: 100     Best Energy: 14.9603077704
+Rep: 12    Terminated at Gen: 100     Best Energy: 15.9965157224
+Rep: 13    Terminated at Gen: 100     Best Energy: 17.1999441729
+Rep: 14    Terminated at Gen: 100     Best Energy: 15.4622768899
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  4  Decisions:  20
+Rep: 0    Terminated at Gen: 100     Best Energy: 28.2058676182
+Rep: 1    Terminated at Gen: 100     Best Energy: 30.099738832
+Rep: 2    Terminated at Gen: 100     Best Energy: 28.7123960104
+Rep: 3    Terminated at Gen: 100     Best Energy: 28.2406540179
+Rep: 4    Terminated at Gen: 100     Best Energy: 30.278172914
+Rep: 5    Terminated at Gen: 100     Best Energy: 29.740879646
+Rep: 6    Terminated at Gen: 100     Best Energy: 28.6786903622
+Rep: 7    Terminated at Gen: 100     Best Energy: 28.787942601
+Rep: 8    Terminated at Gen: 100     Best Energy: 28.4280285147
+Rep: 9    Terminated at Gen: 100     Best Energy: 28.6167428998
+Rep: 10    Terminated at Gen: 100     Best Energy: 30.6118187871
+Rep: 11    Terminated at Gen: 100     Best Energy: 29.137653216
+Rep: 12    Terminated at Gen: 100     Best Energy: 30.749372904
+Rep: 13    Terminated at Gen: 100     Best Energy: 27.6686821459
+Rep: 14    Terminated at Gen: 100     Best Energy: 27.8708811879
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  4  Decisions:  40
+Rep: 0    Terminated at Gen: 100     Best Energy: 51.2817223269
+Rep: 1    Terminated at Gen: 100     Best Energy: 50.4931542483
+Rep: 2    Terminated at Gen: 100     Best Energy: 51.0648961169
+Rep: 3    Terminated at Gen: 100     Best Energy: 51.9515771283
+Rep: 4    Terminated at Gen: 100     Best Energy: 51.0943368188
+Rep: 5    Terminated at Gen: 100     Best Energy: 52.4235771351
+Rep: 6    Terminated at Gen: 100     Best Energy: 51.2597035063
+Rep: 7    Terminated at Gen: 100     Best Energy: 50.7570277047
+Rep: 8    Terminated at Gen: 100     Best Energy: 50.0625908803
+Rep: 9    Terminated at Gen: 100     Best Energy: 54.3204620846
+Rep: 10    Terminated at Gen: 100     Best Energy: 50.6218550109
+Rep: 11    Terminated at Gen: 100     Best Energy: 52.112169767
+Rep: 12    Terminated at Gen: 100     Best Energy: 52.781422041
+Rep: 13    Terminated at Gen: 100     Best Energy: 52.9617683956
+Rep: 14    Terminated at Gen: 100     Best Energy: 51.1842781396
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  6  Decisions:  10
+Rep: 0    Terminated at Gen: 100     Best Energy: 14.8452094922
+Rep: 1    Terminated at Gen: 100     Best Energy: 16.2217079394
+Rep: 2    Terminated at Gen: 100     Best Energy: 16.4950995519
+Rep: 3    Terminated at Gen: 100     Best Energy: 16.2755615038
+Rep: 4    Terminated at Gen: 100     Best Energy: 17.5762933162
+Rep: 5    Terminated at Gen: 100     Best Energy: 15.6788944392
+Rep: 6    Terminated at Gen: 100     Best Energy: 15.9700282586
+Rep: 7    Terminated at Gen: 100     Best Energy: 16.6744145246
+Rep: 8    Terminated at Gen: 100     Best Energy: 17.1091086216
+Rep: 9    Terminated at Gen: 100     Best Energy: 16.4068361467
+Rep: 10    Terminated at Gen: 100     Best Energy: 16.084361741
+Rep: 11    Terminated at Gen: 100     Best Energy: 15.7202852322
+Rep: 12    Terminated at Gen: 100     Best Energy: 16.9220497366
+Rep: 13    Terminated at Gen: 100     Best Energy: 15.4377228952
+Rep: 14    Terminated at Gen: 100     Best Energy: 17.7985328352
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  6  Decisions:  20
+Rep: 0    Terminated at Gen: 100     Best Energy: 29.036379527
+Rep: 1    Terminated at Gen: 100     Best Energy: 30.1569866075
+Rep: 2    Terminated at Gen: 100     Best Energy: 28.7265567006
+Rep: 3    Terminated at Gen: 100     Best Energy: 28.9696545059
+Rep: 4    Terminated at Gen: 100     Best Energy: 30.7952262597
+Rep: 5    Terminated at Gen: 100     Best Energy: 28.5232460619
+Rep: 6    Terminated at Gen: 100     Best Energy: 26.604518461
+Rep: 7    Terminated at Gen: 100     Best Energy: 29.1422241573
+Rep: 8    Terminated at Gen: 100     Best Energy: 28.9610815518
+Rep: 9    Terminated at Gen: 100     Best Energy: 27.8769737129
+Rep: 10    Terminated at Gen: 100     Best Energy: 30.9413176743
+Rep: 11    Terminated at Gen: 100     Best Energy: 28.6359604239
+Rep: 12    Terminated at Gen: 100     Best Energy: 28.4937926908
+Rep: 13    Terminated at Gen: 100     Best Energy: 28.1328991904
+Rep: 14    Terminated at Gen: 100     Best Energy: 29.5392344516
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  6  Decisions:  40
+Rep: 0    Terminated at Gen: 100     Best Energy: 53.577300898
+Rep: 1    Terminated at Gen: 100     Best Energy: 50.1021727454
+Rep: 2    Terminated at Gen: 100     Best Energy: 54.3610428591
+Rep: 3    Terminated at Gen: 100     Best Energy: 51.4317385359
+Rep: 4    Terminated at Gen: 100     Best Energy: 51.8322477767
+Rep: 5    Terminated at Gen: 100     Best Energy: 51.5667409069
+Rep: 6    Terminated at Gen: 100     Best Energy: 51.4745533628
+Rep: 7    Terminated at Gen: 100     Best Energy: 48.6838136611
+Rep: 8    Terminated at Gen: 100     Best Energy: 52.4012664717
+Rep: 9    Terminated at Gen: 100     Best Energy: 52.8862171208
+Rep: 10    Terminated at Gen: 100     Best Energy: 52.3459768253
+Rep: 11    Terminated at Gen: 100     Best Energy: 50.1384929708
+Rep: 12    Terminated at Gen: 100     Best Energy: 50.1175842255
+Rep: 13    Terminated at Gen: 100     Best Energy: 52.2957198699
+Rep: 14    Terminated at Gen: 100     Best Energy: 51.6267664631
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  8  Decisions:  10
+Rep: 0    Terminated at Gen: 100     Best Energy: 15.8521084376
+Rep: 1    Terminated at Gen: 100     Best Energy: 16.031566203
+Rep: 2    Terminated at Gen: 100     Best Energy: 17.1167954919
+Rep: 3    Terminated at Gen: 100     Best Energy: 15.6200003559
+Rep: 4    Terminated at Gen: 100     Best Energy: 16.0451775013
+Rep: 5    Terminated at Gen: 100     Best Energy: 16.8275347915
+Rep: 6    Terminated at Gen: 100     Best Energy: 16.5193934832
+Rep: 7    Terminated at Gen: 100     Best Energy: 15.1275842005
+Rep: 8    Terminated at Gen: 100     Best Energy: 16.2966534165
+Rep: 9    Terminated at Gen: 100     Best Energy: 17.2285115384
+Rep: 10    Terminated at Gen: 100     Best Energy: 16.3628378395
+Rep: 11    Terminated at Gen: 100     Best Energy: 15.9217375417
+Rep: 12    Terminated at Gen: 100     Best Energy: 16.7921399795
+Rep: 13    Terminated at Gen: 100     Best Energy: 17.3522743799
+Rep: 14    Terminated at Gen: 100     Best Energy: 17.3864619499
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  8  Decisions:  20
+Rep: 0    Terminated at Gen: 100     Best Energy: 29.8671387322
+Rep: 1    Terminated at Gen: 100     Best Energy: 29.6861170151
+Rep: 2    Terminated at Gen: 100     Best Energy: 29.0101463822
+Rep: 3    Terminated at Gen: 100     Best Energy: 28.2818720092
+Rep: 4    Terminated at Gen: 100     Best Energy: 28.1482963343
+Rep: 5    Terminated at Gen: 100     Best Energy: 29.0945101475
+Rep: 6    Terminated at Gen: 100     Best Energy: 28.9346684012
+Rep: 7    Terminated at Gen: 100     Best Energy: 28.0995782473
+Rep: 8    Terminated at Gen: 100     Best Energy: 28.4132732532
+Rep: 9    Terminated at Gen: 100     Best Energy: 27.8769737129
+Rep: 10    Terminated at Gen: 100     Best Energy: 29.7644544153
+Rep: 11    Terminated at Gen: 100     Best Energy: 30.5343403207
+Rep: 12    Terminated at Gen: 100     Best Energy: 30.0006717614
+Rep: 13    Terminated at Gen: 100     Best Energy: 27.2635872664
+Rep: 14    Terminated at Gen: 100     Best Energy: 29.6879798991
+Model:  <class 'DTLZ.DTLZ7'>  Objectives:  8  Decisions:  40
+Rep: 0    Terminated at Gen: 100     Best Energy: 51.3574577717
+Rep: 1    Terminated at Gen: 100     Best Energy: 51.1485299118
+Rep: 2    Terminated at Gen: 100     Best Energy: 53.2854235117
+Rep: 3    Terminated at Gen: 100     Best Energy: 50.1372736745
+Rep: 4    Terminated at Gen: 100     Best Energy: 54.8356440458
+Rep: 5    Terminated at Gen: 100     Best Energy: 51.8478836807
+Rep: 6    Terminated at Gen: 100     Best Energy: 52.9735563442
+Rep: 7    Terminated at Gen: 100     Best Energy: 48.750546792
+Rep: 8    Terminated at Gen: 100     Best Energy: 52.5149236709
+Rep: 9    Terminated at Gen: 100     Best Energy: 51.6344339295
+Rep: 10    Terminated at Gen: 100     Best Energy: 51.3211421928
+Rep: 11    Terminated at Gen: 100     Best Energy: 49.1052521087
+Rep: 12    Terminated at Gen: 100     Best Energy: 51.5191238853
+Rep: 13    Terminated at Gen: 100     Best Energy: 51.7695330996
+Rep: 14    Terminated at Gen: 100     Best Energy: 51.4803059457
+Model:  DTLZ1
+                                           10                        20  \
+2  0.999969333333, 0.99998, 3.00000000001e-05         0.99998, 1.0, 0.0   
+4                  0.999954, 0.99997, 5.5e-05  0.999994666667, 1.0, 0.0   
+6  0.999979333333, 0.99999, 2.49999999999e-05             1.0, 1.0, 0.0   
+8      0.999994666667, 1.0, 9.99999999995e-06             1.0, 1.0, 0.0   
+
+              40  
+2  1.0, 1.0, 0.0  
+4  1.0, 1.0, 0.0  
+6  1.0, 1.0, 0.0  
+8  1.0, 1.0, 0.0  
+Model:  DTLZ3
+                                           10             20             40
+2              0.999929333333, 0.99999, 5e-05  1.0, 1.0, 0.0  1.0, 1.0, 0.0
+4                   0.99994, 0.99997, 4.5e-05  1.0, 1.0, 0.0  1.0, 1.0, 0.0
+6                    0.999974, 0.99998, 2e-05  1.0, 1.0, 0.0  1.0, 1.0, 0.0
+8  0.999973333333, 0.99997, 2.50000000001e-05  1.0, 1.0, 0.0  1.0, 1.0, 0.0
+Model:  DTLZ5
+                                 10                                 20  \
+2  0.716725333333, 0.72475, 0.04222          0.706134, 0.70483, 0.0393   
+4         0.53364, 0.53506, 0.02997  0.506327333333, 0.50797, 0.043155   
+6       0.137432, 0.13249, 0.024215  0.174236666667, 0.15179, 0.047615   
+8         0.040496, 0.0388, 0.00798   0.0576513333333, 0.05232, 0.0142   
+
+                                   40  
+2    0.693147333333, 0.69662, 0.03988  
+4          0.54629, 0.54612, 0.025225  
+6    0.193968666667, 0.15062, 0.05971  
+8  0.0571153333333, 0.05351, 0.007765  
+Model:  DTLZ7
+                                 10                           20  \
+2        0.999096, 0.99931, 0.00079  0.419776, 0.41947, 0.002245   
+4  0.552187333333, 0.54852, 0.06642  0.254722, 0.25556, 0.014605   
+6       0.307918, 0.30354, 0.084935  0.113112, 0.11362, 0.024785   
+8        0.143236, 0.1524, 0.064065     0.04723, 0.04783, 0.0112   
+
+                                   40  
+2    0.420044666667, 0.4201, 0.001765  
+4           0.24883, 0.24853, 0.01424  
+6     0.110188666667, 0.1071, 0.02195  
+8  0.0409626666667, 0.04208, 0.011855  
