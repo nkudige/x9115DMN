@@ -33,13 +33,13 @@ Genetic Algorithms (GA) are inspired by the mechanism of natural selection, a bi
 
 ![GA flowchart](https://cloud.githubusercontent.com/assets/4932677/11628781/f24205e4-9cc1-11e5-9eba-7724c5e96b68.gif)
 
- ##### Selection
+##### Selection
  From the population generated, we select all candidates in the pareto frontier by performing a binary domination comparison between each candidate and every other candidate in the population. These candidates in the pareto frontier are the 'selected' candidates. These are also initially set as the 'best' candidates.
 
- ##### Cross-over
+##### Cross-over
  Randomly select two parents from the pareto frontier with replacement (which means the two parents could be the same). Further, we select a random 'crossover point'. Next, we select all decisions up to the crossover point from the daddy, and all decisions starting from the crossover point from the mummy. We combine these to produce a baby.
 
- ##### Mutation
+##### Mutation
  A mutation rate is fixed (0.05 default). This is the probability at which each of the decisions of the baby produced in the previous step could be 'mutated' - randomly generated - into a brand new decision. That is, there is effectively a 5% chance that any given decision in the baby is randomly mutated.
 
  ![Crossover and Mutation](https://cloud.githubusercontent.com/assets/4932677/11629042/aee752d4-9cc3-11e5-8ffe-3204ace81d64.gif)
@@ -58,7 +58,7 @@ We look at three different statistics concerning the hypervolume of the best par
 
 #### Model: DTLZ1
 
-|Objectives\Decisions|10|20|40|
+|Objectives \ Decisions|10<br />(Mean, Median, IQR)|20<br />(Mean, Median, IQR)|40<br />(Mean, Median, IQR)|
 |:---:|---|---|---|
 |2|0.999969, 0.99998, 3.0e-05|0.99998, 1.0, 0.0|1.0, 1.0, 0.0|
 |4|0.999954, 0.99997, 5.5e-05|0.99999, 1.0, 0.0|1.0, 1.0, 0.0|
@@ -67,7 +67,7 @@ We look at three different statistics concerning the hypervolume of the best par
 
 #### Model: DTLZ3
 
-|Objectives\Decisions|10|20|40|
+|Objectives \ Decisions|10<br />(Mean, Median, IQR)|20<br />(Mean, Median, IQR)|40<br />(Mean, Median, IQR)|
 |:---:|---|---|---|
 |2|0.999929, 0.99999, 5e-05|1.0, 1.0, 0.0|1.0, 1.0, 0.0|
 |4|0.999940, 0.99997, 4.5e-05|1.0, 1.0, 0.0|1.0, 1.0, 0.0|
@@ -76,7 +76,7 @@ We look at three different statistics concerning the hypervolume of the best par
 
 #### Model: DTLZ5
 
-|Objectives\Decisions|10|20|40|
+|Objectives \ Decisions|10<br />(Mean, Median, IQR)|20<br />(Mean, Median, IQR)|40<br />(Mean, Median, IQR)|
 |:---:|---|---|---|
 |2|0.716725, 0.72475, 0.04222|0.706134, 0.70483, 0.0393|0.693147, 0.69662, 0.03988|
 |4|0.533640, 0.53506, 0.02997|0.506327, 0.50797, 0.0432|0.546290, 0.54612, 0.02522|
@@ -85,7 +85,7 @@ We look at three different statistics concerning the hypervolume of the best par
 
 #### Model: DTLZ7
 
-|Objectives\Decisions|10|20|40|
+|Objectives \ Decisions|10<br />(Mean, Median, IQR)|20<br />(Mean, Median, IQR)|40<br />(Mean, Median, IQR)|
 |:---:|---|---|---|
 |2|0.999096, 0.99931, 0.00079|0.419776, 0.41947, 0.00225|0.420045, 0.4201, 0.00177|
 |4|0.552187, 0.54852, 0.06642|0.254722, 0.25556, 0.01460|0.248830, 0.2485, 0.01424|
