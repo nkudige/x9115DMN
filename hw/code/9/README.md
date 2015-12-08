@@ -9,7 +9,7 @@
 
 ### I. Abstract
 
-Genetic Algorithms (GA) are inspired by the mechanism of natural selection, a biological process in which stronger individuals are likely to be the winners in a competing environment. A positive value, generally known as the fitness value, is used to reflect the degree of "goodness" of an individual for solving the problem, and this value is closely related to the individual's objective value.[1] Genetic Algorithms are evolutionary algorithms that may be used to solve search and optimization problems. In this project, we use GA to optimize the DTLZ1,3,5,7 models with 2,4,6,8 objectives and 10,20,40 decisions.
+Genetic Algorithms (GA) are inspired by the mechanism of natural selection, a biological process in which stronger individuals are likely to be the winners in a competing environment. A positive value, generally known as the fitness value, is used to reflect the degree of "goodness" of an individual for solving the problem, and this value is closely related to the individual's objective value. Genetic Algorithms are evolutionary algorithms that may be used to solve search and optimization problems. In this project, we use GA to optimize the DTLZ1,3,5,7 models with 2,4,6,8 objectives and 10,20,40 decisions.
 
 ### II. Introduction
 
@@ -21,8 +21,6 @@ Genetic Algorithms (GA) are inspired by the mechanism of natural selection, a bi
 	- Mutation: This explains how a new-born child may possess certain qualities that neither of its parents possess. At some probability, the certain characteristics obtained from the child's parents may "mutate" and result in something neither of its parents possessed.
 
 	We make use of these 3 algorithms to generate several 'generations' of solutions to the DTLZ models; presumably producing better and better solutions as the generations progress.
-
-	The rest of the paper is organized as follows - Section III discusses the implementation details and some of the design choices made during the course of implementation. Section IV provides a summary of our interpretation of the results obtained when GA was tested against DTLZ 1, 3, 5, 7. Section V talks about the threats to the validity of our implementation while Section VI talks about our learnings from this implementation and our plans to better the algorithm. Section VII is references.
 
 ### III. Implementation
 
