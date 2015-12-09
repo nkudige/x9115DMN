@@ -32,10 +32,10 @@ The goal of the project is to compare the various algorithms that were implement
 optimization algorithms, we used a rdiv comparator to compare the candidate solutions from different optimizers.
 
 # V. Results
-SA
+### SA
 ![alt tag](https://github.com/nkudige/x9115DMN/blob/master/hw/code/8/output_SA.PNG)
 
-MWS
+### MWS
 ![alt tag](https://github.com/nkudige/x9115DMN/blob/master/hw/code/8/MWS_Output.PNG)
 
 
