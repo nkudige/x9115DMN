@@ -32,7 +32,6 @@ class Model(object):
                 return False
         return True
         
-# Specific DTLZ models
 class DTLZ1(Model):
     def __init__(self, dec = 10, obj = 2):
         self.decisionsN, self.objectivesN = dec, obj
